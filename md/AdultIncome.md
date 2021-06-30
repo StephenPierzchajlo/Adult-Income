@@ -1,15 +1,11 @@
-<<<<<<< HEAD
 <h1>Table of Contents<span class="tocSkip"></span></h1>
-<div class="toc"><ul class="toc-item"><li><span><a href="#Census-Income-Data-Set" data-toc-modified-id="Census-Income-Data-Set-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Census Income Data Set</a></span><ul class="toc-item"><li><span><a href="#Introduction" data-toc-modified-id="Introduction-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Introduction</a></span></li><li><span><a href="#Data-Description" data-toc-modified-id="Data-Description-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>Data Description</a></span></li><li><span><a href="#Categorical-Attributes" data-toc-modified-id="Categorical-Attributes-1.3"><span class="toc-item-num">1.3&nbsp;&nbsp;</span>Categorical Attributes</a></span></li><li><span><a href="#Continuous-Attributes" data-toc-modified-id="Continuous-Attributes-1.4"><span class="toc-item-num">1.4&nbsp;&nbsp;</span>Continuous Attributes</a></span></li></ul></li><li><span><a href="#Setup" data-toc-modified-id="Setup-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Setup</a></span><ul class="toc-item"><li><span><a href="#Load-Libraries" data-toc-modified-id="Load-Libraries-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Load Libraries</a></span></li><li><span><a href="#Suppress-Warnings" data-toc-modified-id="Suppress-Warnings-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Suppress Warnings</a></span></li><li><span><a href="#Set-Seed" data-toc-modified-id="Set-Seed-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Set Seed</a></span></li><li><span><a href="#Display-Options" data-toc-modified-id="Display-Options-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Display Options</a></span></li><li><span><a href="#Path-Manager" data-toc-modified-id="Path-Manager-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Path Manager</a></span></li><li><span><a href="#Define-Custom-Functions" data-toc-modified-id="Define-Custom-Functions-2.6"><span class="toc-item-num">2.6&nbsp;&nbsp;</span>Define Custom Functions</a></span></li><li><span><a href="#Load-Data" data-toc-modified-id="Load-Data-2.7"><span class="toc-item-num">2.7&nbsp;&nbsp;</span>Load Data</a></span></li><li><span><a href="#Check-Data-Structure" data-toc-modified-id="Check-Data-Structure-2.8"><span class="toc-item-num">2.8&nbsp;&nbsp;</span>Check Data Structure</a></span></li></ul></li><li><span><a href="#Missing-Data" data-toc-modified-id="Missing-Data-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Missing Data</a></span><ul class="toc-item"><li><span><a href="#Missing-Data-List" data-toc-modified-id="Missing-Data-List-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Missing Data List</a></span></li></ul></li><li><span><a href="#Assess-Predictors" data-toc-modified-id="Assess-Predictors-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Assess Predictors</a></span><ul class="toc-item"><li><span><a href="#Workclass" data-toc-modified-id="Workclass-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Workclass</a></span></li><li><span><a href="#Education" data-toc-modified-id="Education-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Education</a></span></li><li><span><a href="#Marital-status" data-toc-modified-id="Marital-status-4.3"><span class="toc-item-num">4.3&nbsp;&nbsp;</span>Marital-status</a></span></li><li><span><a href="#Occupation" data-toc-modified-id="Occupation-4.4"><span class="toc-item-num">4.4&nbsp;&nbsp;</span>Occupation</a></span></li><li><span><a href="#Relationship" data-toc-modified-id="Relationship-4.5"><span class="toc-item-num">4.5&nbsp;&nbsp;</span>Relationship</a></span></li><li><span><a href="#Race" data-toc-modified-id="Race-4.6"><span class="toc-item-num">4.6&nbsp;&nbsp;</span>Race</a></span></li><li><span><a href="#Gender" data-toc-modified-id="Gender-4.7"><span class="toc-item-num">4.7&nbsp;&nbsp;</span>Gender</a></span></li><li><span><a href="#Native-Country" data-toc-modified-id="Native-Country-4.8"><span class="toc-item-num">4.8&nbsp;&nbsp;</span>Native-Country</a></span></li><li><span><a href="#Capital-Gain/Capital-Loss" data-toc-modified-id="Capital-Gain/Capital-Loss-4.9"><span class="toc-item-num">4.9&nbsp;&nbsp;</span>Capital-Gain/Capital-Loss</a></span></li><li><span><a href="#Age" data-toc-modified-id="Age-4.10"><span class="toc-item-num">4.10&nbsp;&nbsp;</span>Age</a></span></li><li><span><a href="#Hours-per-week" data-toc-modified-id="Hours-per-week-4.11"><span class="toc-item-num">4.11&nbsp;&nbsp;</span>Hours-per-week</a></span></li><li><span><a href="#Capital_diff" data-toc-modified-id="Capital_diff-4.12"><span class="toc-item-num">4.12&nbsp;&nbsp;</span>Capital_diff</a></span></li><li><span><a href="#Scaling-continuous-variables" data-toc-modified-id="Scaling-continuous-variables-4.13"><span class="toc-item-num">4.13&nbsp;&nbsp;</span>Scaling continuous variables</a></span></li><li><span><a href="#fnlwgt" data-toc-modified-id="fnlwgt-4.14"><span class="toc-item-num">4.14&nbsp;&nbsp;</span>fnlwgt</a></span></li></ul></li><li><span><a href="#Final-Data-Tweaks" data-toc-modified-id="Final-Data-Tweaks-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Final Data Tweaks</a></span><ul class="toc-item"><li><span><a href="#Dummy-Coding" data-toc-modified-id="Dummy-Coding-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Dummy Coding</a></span></li><li><span><a href="#Check-For-Duplicate-Columns" data-toc-modified-id="Check-For-Duplicate-Columns-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>Check For Duplicate Columns</a></span></li></ul></li><li><span><a href="#Machine-Learning-Model" data-toc-modified-id="Machine-Learning-Model-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Machine Learning Model</a></span><ul class="toc-item"><li><span><a href="#Define-Predictors-And-Response-Variable" data-toc-modified-id="Define-Predictors-And-Response-Variable-6.1"><span class="toc-item-num">6.1&nbsp;&nbsp;</span>Define Predictors And Response Variable</a></span></li><li><span><a href="#Define-Training,-Validation,-And-Testing-Sets" data-toc-modified-id="Define-Training,-Validation,-And-Testing-Sets-6.2"><span class="toc-item-num">6.2&nbsp;&nbsp;</span>Define Training, Validation, And Testing Sets</a></span></li><li><span><a href="#Testing-Different-Classifiers" data-toc-modified-id="Testing-Different-Classifiers-6.3"><span class="toc-item-num">6.3&nbsp;&nbsp;</span>Testing Different Classifiers</a></span></li><li><span><a href="#Stacked-Model" data-toc-modified-id="Stacked-Model-6.4"><span class="toc-item-num">6.4&nbsp;&nbsp;</span>Stacked Model</a></span></li><li><span><a href="#XGBoost-Base-Model" data-toc-modified-id="XGBoost-Base-Model-6.5"><span class="toc-item-num">6.5&nbsp;&nbsp;</span>XGBoost Base Model</a></span></li><li><span><a href="#XGBoost-Grid-Search" data-toc-modified-id="XGBoost-Grid-Search-6.6"><span class="toc-item-num">6.6&nbsp;&nbsp;</span>XGBoost Grid Search</a></span></li></ul></li><li><span><a href="#Model-Evaluation" data-toc-modified-id="Model-Evaluation-7"><span class="toc-item-num">7&nbsp;&nbsp;</span>Model Evaluation</a></span><ul class="toc-item"><li><span><a href="#Validation-Curve" data-toc-modified-id="Validation-Curve-7.1"><span class="toc-item-num">7.1&nbsp;&nbsp;</span>Validation Curve</a></span></li><li><span><a href="#Learning-Curve" data-toc-modified-id="Learning-Curve-7.2"><span class="toc-item-num">7.2&nbsp;&nbsp;</span>Learning Curve</a></span></li></ul></li><li><span><a href="#Metrics-And-Classification-Evaluation" data-toc-modified-id="Metrics-And-Classification-Evaluation-8"><span class="toc-item-num">8&nbsp;&nbsp;</span>Metrics And Classification Evaluation</a></span><ul class="toc-item"><li><span><a href="#Confusion-Matrix" data-toc-modified-id="Confusion-Matrix-8.1"><span class="toc-item-num">8.1&nbsp;&nbsp;</span>Confusion Matrix</a></span></li><li><span><a href="#Accuracy" data-toc-modified-id="Accuracy-8.2"><span class="toc-item-num">8.2&nbsp;&nbsp;</span>Accuracy</a></span><ul class="toc-item"><li><span><a href="#Manual-Calculation" data-toc-modified-id="Manual-Calculation-8.2.1"><span class="toc-item-num">8.2.1&nbsp;&nbsp;</span>Manual Calculation</a></span></li><li><span><a href="#ScikitLearn-Calculation" data-toc-modified-id="ScikitLearn-Calculation-8.2.2"><span class="toc-item-num">8.2.2&nbsp;&nbsp;</span>ScikitLearn Calculation</a></span></li></ul></li><li><span><a href="#Recall/Sensitivity-(True-Positive-Rate)" data-toc-modified-id="Recall/Sensitivity-(True-Positive-Rate)-8.3"><span class="toc-item-num">8.3&nbsp;&nbsp;</span>Recall/Sensitivity (True Positive Rate)</a></span><ul class="toc-item"><li><span><a href="#Manual-Calculation" data-toc-modified-id="Manual-Calculation-8.3.1"><span class="toc-item-num">8.3.1&nbsp;&nbsp;</span>Manual Calculation</a></span></li><li><span><a href="#ScikitLearn-Calculation" data-toc-modified-id="ScikitLearn-Calculation-8.3.2"><span class="toc-item-num">8.3.2&nbsp;&nbsp;</span>ScikitLearn Calculation</a></span></li></ul></li><li><span><a href="#Precision" data-toc-modified-id="Precision-8.4"><span class="toc-item-num">8.4&nbsp;&nbsp;</span>Precision</a></span><ul class="toc-item"><li><span><a href="#Manual-Calculation" data-toc-modified-id="Manual-Calculation-8.4.1"><span class="toc-item-num">8.4.1&nbsp;&nbsp;</span>Manual Calculation</a></span></li><li><span><a href="#ScikitLearn-Calculation" data-toc-modified-id="ScikitLearn-Calculation-8.4.2"><span class="toc-item-num">8.4.2&nbsp;&nbsp;</span>ScikitLearn Calculation</a></span></li></ul></li><li><span><a href="#F1-(Harmonic-Mean)" data-toc-modified-id="F1-(Harmonic-Mean)-8.5"><span class="toc-item-num">8.5&nbsp;&nbsp;</span>F1 (Harmonic Mean)</a></span><ul class="toc-item"><li><span><a href="#Manual-Calculation" data-toc-modified-id="Manual-Calculation-8.5.1"><span class="toc-item-num">8.5.1&nbsp;&nbsp;</span>Manual Calculation</a></span></li><li><span><a href="#ScikitLearn-Calculation" data-toc-modified-id="ScikitLearn-Calculation-8.5.2"><span class="toc-item-num">8.5.2&nbsp;&nbsp;</span>ScikitLearn Calculation</a></span></li></ul></li><li><span><a href="#Classification-Report" data-toc-modified-id="Classification-Report-8.6"><span class="toc-item-num">8.6&nbsp;&nbsp;</span>Classification Report</a></span></li><li><span><a href="#ROC" data-toc-modified-id="ROC-8.7"><span class="toc-item-num">8.7&nbsp;&nbsp;</span>ROC</a></span></li><li><span><a href="#Precision-Recall-Curve" data-toc-modified-id="Precision-Recall-Curve-8.8"><span class="toc-item-num">8.8&nbsp;&nbsp;</span>Precision-Recall Curve</a></span></li><li><span><a href="#Cumulative-Gains-Plot" data-toc-modified-id="Cumulative-Gains-Plot-8.9"><span class="toc-item-num">8.9&nbsp;&nbsp;</span>Cumulative Gains Plot</a></span></li><li><span><a href="#Lift-Curve" data-toc-modified-id="Lift-Curve-8.10"><span class="toc-item-num">8.10&nbsp;&nbsp;</span>Lift Curve</a></span></li><li><span><a href="#Class-Prediction-Error" data-toc-modified-id="Class-Prediction-Error-8.11"><span class="toc-item-num">8.11&nbsp;&nbsp;</span>Class Prediction Error</a></span></li><li><span><a href="#Discrimination-Threshold" data-toc-modified-id="Discrimination-Threshold-8.12"><span class="toc-item-num">8.12&nbsp;&nbsp;</span>Discrimination Threshold</a></span></li></ul></li><li><span><a href="#Tuning-Decision-Threshold" data-toc-modified-id="Tuning-Decision-Threshold-9"><span class="toc-item-num">9&nbsp;&nbsp;</span>Tuning Decision Threshold</a></span><ul class="toc-item"><li><span><a href="#Identify-Everyone-Making-<=50K" data-toc-modified-id="Identify-Everyone-Making-<=50K-9.1"><span class="toc-item-num">9.1&nbsp;&nbsp;</span>Identify Everyone Making &lt;=50K</a></span></li><li><span><a href="#Correctly-Identify-Everyone-Making-<=50K" data-toc-modified-id="Correctly-Identify-Everyone-Making-<=50K-9.2"><span class="toc-item-num">9.2&nbsp;&nbsp;</span>Correctly Identify Everyone Making &lt;=50K</a></span></li></ul></li><li><span><a href="#Model-Exploration" data-toc-modified-id="Model-Exploration-10"><span class="toc-item-num">10&nbsp;&nbsp;</span>Model Exploration</a></span><ul class="toc-item"><li><span><a href="#Shapley-Additive-Explanations-(SHAP)" data-toc-modified-id="Shapley-Additive-Explanations-(SHAP)-10.1"><span class="toc-item-num">10.1&nbsp;&nbsp;</span>Shapley Additive Explanations (SHAP)</a></span></li><li><span><a href="#Force-Plot" data-toc-modified-id="Force-Plot-10.2"><span class="toc-item-num">10.2&nbsp;&nbsp;</span>Force Plot</a></span><ul class="toc-item"><li><span><a href="#<=50K-Force-Plot" data-toc-modified-id="<=50K-Force-Plot-10.2.1"><span class="toc-item-num">10.2.1&nbsp;&nbsp;</span>&lt;=50K Force Plot</a></span></li><li><span><a href="#>50K-Force-Plot" data-toc-modified-id=">50K-Force-Plot-10.2.2"><span class="toc-item-num">10.2.2&nbsp;&nbsp;</span>&gt;50K Force Plot</a></span></li></ul></li><li><span><a href="#Bee-Swarm-Plot" data-toc-modified-id="Bee-Swarm-Plot-10.3"><span class="toc-item-num">10.3&nbsp;&nbsp;</span>Bee Swarm Plot</a></span></li><li><span><a href="#SHAP-Bar-Plot" data-toc-modified-id="SHAP-Bar-Plot-10.4"><span class="toc-item-num">10.4&nbsp;&nbsp;</span>SHAP Bar Plot</a></span></li><li><span><a href="#SHAP-Dot-Plot" data-toc-modified-id="SHAP-Dot-Plot-10.5"><span class="toc-item-num">10.5&nbsp;&nbsp;</span>SHAP Dot Plot</a></span><ul class="toc-item"><li><span><a href="#SHAP-Dot-Plot:-gender_Male" data-toc-modified-id="SHAP-Dot-Plot:-gender_Male-10.5.1"><span class="toc-item-num">10.5.1&nbsp;&nbsp;</span>SHAP Dot Plot: gender_Male</a></span></li></ul></li></ul></li><li><span><a href="#Conclusion" data-toc-modified-id="Conclusion-11"><span class="toc-item-num">11&nbsp;&nbsp;</span>Conclusion</a></span></li></ul></div>
+<div class="toc"><ul class="toc-item"><li><span><a href="#Census-Income-Data-Set" data-toc-modified-id="Census-Income-Data-Set-1"><span class="toc-item-num">1&nbsp;&nbsp;</span>Census Income Data Set</a></span><ul class="toc-item"><li><span><a href="#Introduction" data-toc-modified-id="Introduction-1.1"><span class="toc-item-num">1.1&nbsp;&nbsp;</span>Introduction</a></span></li><li><span><a href="#Data-Description" data-toc-modified-id="Data-Description-1.2"><span class="toc-item-num">1.2&nbsp;&nbsp;</span>Data Description</a></span></li><li><span><a href="#Categorical-Attributes" data-toc-modified-id="Categorical-Attributes-1.3"><span class="toc-item-num">1.3&nbsp;&nbsp;</span>Categorical Attributes</a></span></li><li><span><a href="#Continuous-Attributes" data-toc-modified-id="Continuous-Attributes-1.4"><span class="toc-item-num">1.4&nbsp;&nbsp;</span>Continuous Attributes</a></span></li></ul></li><li><span><a href="#Setup" data-toc-modified-id="Setup-2"><span class="toc-item-num">2&nbsp;&nbsp;</span>Setup</a></span><ul class="toc-item"><li><span><a href="#Load-Libraries" data-toc-modified-id="Load-Libraries-2.1"><span class="toc-item-num">2.1&nbsp;&nbsp;</span>Load Libraries</a></span></li><li><span><a href="#Suppress-Warnings" data-toc-modified-id="Suppress-Warnings-2.2"><span class="toc-item-num">2.2&nbsp;&nbsp;</span>Suppress Warnings</a></span></li><li><span><a href="#Set-Seed" data-toc-modified-id="Set-Seed-2.3"><span class="toc-item-num">2.3&nbsp;&nbsp;</span>Set Seed</a></span></li><li><span><a href="#Display-Options" data-toc-modified-id="Display-Options-2.4"><span class="toc-item-num">2.4&nbsp;&nbsp;</span>Display Options</a></span></li><li><span><a href="#Path-Manager" data-toc-modified-id="Path-Manager-2.5"><span class="toc-item-num">2.5&nbsp;&nbsp;</span>Path Manager</a></span></li><li><span><a href="#Define-Custom-Functions" data-toc-modified-id="Define-Custom-Functions-2.6"><span class="toc-item-num">2.6&nbsp;&nbsp;</span>Define Custom Functions</a></span></li><li><span><a href="#Load-Data" data-toc-modified-id="Load-Data-2.7"><span class="toc-item-num">2.7&nbsp;&nbsp;</span>Load Data</a></span></li><li><span><a href="#Check-Data-Structure" data-toc-modified-id="Check-Data-Structure-2.8"><span class="toc-item-num">2.8&nbsp;&nbsp;</span>Check Data Structure</a></span></li></ul></li><li><span><a href="#Missing-Data" data-toc-modified-id="Missing-Data-3"><span class="toc-item-num">3&nbsp;&nbsp;</span>Missing Data</a></span><ul class="toc-item"><li><span><a href="#Missing-Data-List" data-toc-modified-id="Missing-Data-List-3.1"><span class="toc-item-num">3.1&nbsp;&nbsp;</span>Missing Data List</a></span></li></ul></li><li><span><a href="#Assess-Predictors" data-toc-modified-id="Assess-Predictors-4"><span class="toc-item-num">4&nbsp;&nbsp;</span>Assess Predictors</a></span><ul class="toc-item"><li><span><a href="#Workclass" data-toc-modified-id="Workclass-4.1"><span class="toc-item-num">4.1&nbsp;&nbsp;</span>Workclass</a></span></li><li><span><a href="#Education" data-toc-modified-id="Education-4.2"><span class="toc-item-num">4.2&nbsp;&nbsp;</span>Education</a></span></li><li><span><a href="#Marital-status" data-toc-modified-id="Marital-status-4.3"><span class="toc-item-num">4.3&nbsp;&nbsp;</span>Marital-status</a></span></li><li><span><a href="#Occupation" data-toc-modified-id="Occupation-4.4"><span class="toc-item-num">4.4&nbsp;&nbsp;</span>Occupation</a></span></li><li><span><a href="#Relationship" data-toc-modified-id="Relationship-4.5"><span class="toc-item-num">4.5&nbsp;&nbsp;</span>Relationship</a></span></li><li><span><a href="#Race" data-toc-modified-id="Race-4.6"><span class="toc-item-num">4.6&nbsp;&nbsp;</span>Race</a></span></li><li><span><a href="#Gender" data-toc-modified-id="Gender-4.7"><span class="toc-item-num">4.7&nbsp;&nbsp;</span>Gender</a></span></li><li><span><a href="#Native-Country" data-toc-modified-id="Native-Country-4.8"><span class="toc-item-num">4.8&nbsp;&nbsp;</span>Native-Country</a></span></li><li><span><a href="#Capital-Gain/Capital-Loss" data-toc-modified-id="Capital-Gain/Capital-Loss-4.9"><span class="toc-item-num">4.9&nbsp;&nbsp;</span>Capital-Gain/Capital-Loss</a></span></li><li><span><a href="#Age" data-toc-modified-id="Age-4.10"><span class="toc-item-num">4.10&nbsp;&nbsp;</span>Age</a></span></li><li><span><a href="#Hours-per-week" data-toc-modified-id="Hours-per-week-4.11"><span class="toc-item-num">4.11&nbsp;&nbsp;</span>Hours-per-week</a></span></li><li><span><a href="#Capital_diff" data-toc-modified-id="Capital_diff-4.12"><span class="toc-item-num">4.12&nbsp;&nbsp;</span>Capital_diff</a></span></li><li><span><a href="#Scaling-continuous-variables" data-toc-modified-id="Scaling-continuous-variables-4.13"><span class="toc-item-num">4.13&nbsp;&nbsp;</span>Scaling continuous variables</a></span></li><li><span><a href="#fnlwgt" data-toc-modified-id="fnlwgt-4.14"><span class="toc-item-num">4.14&nbsp;&nbsp;</span>fnlwgt</a></span></li></ul></li><li><span><a href="#Final-Data-Tweaks" data-toc-modified-id="Final-Data-Tweaks-5"><span class="toc-item-num">5&nbsp;&nbsp;</span>Final Data Tweaks</a></span><ul class="toc-item"><li><span><a href="#Dummy-Coding" data-toc-modified-id="Dummy-Coding-5.1"><span class="toc-item-num">5.1&nbsp;&nbsp;</span>Dummy Coding</a></span></li><li><span><a href="#Check-For-Duplicate-Columns" data-toc-modified-id="Check-For-Duplicate-Columns-5.2"><span class="toc-item-num">5.2&nbsp;&nbsp;</span>Check For Duplicate Columns</a></span></li></ul></li><li><span><a href="#Machine-Learning-Model" data-toc-modified-id="Machine-Learning-Model-6"><span class="toc-item-num">6&nbsp;&nbsp;</span>Machine Learning Model</a></span><ul class="toc-item"><li><span><a href="#Define-Predictors-And-Response-Variable" data-toc-modified-id="Define-Predictors-And-Response-Variable-6.1"><span class="toc-item-num">6.1&nbsp;&nbsp;</span>Define Predictors And Response Variable</a></span></li><li><span><a href="#Define-Training,-Validation,-And-Testing-Sets" data-toc-modified-id="Define-Training,-Validation,-And-Testing-Sets-6.2"><span class="toc-item-num">6.2&nbsp;&nbsp;</span>Define Training, Validation, And Testing Sets</a></span></li><li><span><a href="#Testing-Different-Classifiers" data-toc-modified-id="Testing-Different-Classifiers-6.3"><span class="toc-item-num">6.3&nbsp;&nbsp;</span>Testing Different Classifiers</a></span></li><li><span><a href="#Stacked-Model" data-toc-modified-id="Stacked-Model-6.4"><span class="toc-item-num">6.4&nbsp;&nbsp;</span>Stacked Model</a></span></li><li><span><a href="#XGBoost-Base-Model" data-toc-modified-id="XGBoost-Base-Model-6.5"><span class="toc-item-num">6.5&nbsp;&nbsp;</span>XGBoost Base Model</a></span></li><li><span><a href="#XGBoost-Grid-Search" data-toc-modified-id="XGBoost-Grid-Search-6.6"><span class="toc-item-num">6.6&nbsp;&nbsp;</span>XGBoost Grid Search</a></span></li></ul></li><li><span><a href="#Model-Evaluation" data-toc-modified-id="Model-Evaluation-7"><span class="toc-item-num">7&nbsp;&nbsp;</span>Model Evaluation</a></span><ul class="toc-item"><li><span><a href="#Validation-Curve" data-toc-modified-id="Validation-Curve-7.1"><span class="toc-item-num">7.1&nbsp;&nbsp;</span>Validation Curve</a></span></li><li><span><a href="#Learning-Curve" data-toc-modified-id="Learning-Curve-7.2"><span class="toc-item-num">7.2&nbsp;&nbsp;</span>Learning Curve</a></span></li></ul></li><li><span><a href="#Metrics-And-Classification-Evaluation" data-toc-modified-id="Metrics-And-Classification-Evaluation-8"><span class="toc-item-num">8&nbsp;&nbsp;</span>Metrics And Classification Evaluation</a></span><ul class="toc-item"><li><span><a href="#Confusion-Matrix" data-toc-modified-id="Confusion-Matrix-8.1"><span class="toc-item-num">8.1&nbsp;&nbsp;</span>Confusion Matrix</a></span></li><li><span><a href="#Accuracy" data-toc-modified-id="Accuracy-8.2"><span class="toc-item-num">8.2&nbsp;&nbsp;</span>Accuracy</a></span><ul class="toc-item"><li><span><a href="#Manual-Calculation" data-toc-modified-id="Manual-Calculation-8.2.1"><span class="toc-item-num">8.2.1&nbsp;&nbsp;</span>Manual Calculation</a></span></li><li><span><a href="#ScikitLearn-Calculation" data-toc-modified-id="ScikitLearn-Calculation-8.2.2"><span class="toc-item-num">8.2.2&nbsp;&nbsp;</span>ScikitLearn Calculation</a></span></li></ul></li><li><span><a href="#Recall/Sensitivity-(True-Positive-Rate)" data-toc-modified-id="Recall/Sensitivity-(True-Positive-Rate)-8.3"><span class="toc-item-num">8.3&nbsp;&nbsp;</span>Recall/Sensitivity (True Positive Rate)</a></span><ul class="toc-item"><li><span><a href="#Manual-Calculation" data-toc-modified-id="Manual-Calculation-8.3.1"><span class="toc-item-num">8.3.1&nbsp;&nbsp;</span>Manual Calculation</a></span></li><li><span><a href="#ScikitLearn-Calculation" data-toc-modified-id="ScikitLearn-Calculation-8.3.2"><span class="toc-item-num">8.3.2&nbsp;&nbsp;</span>ScikitLearn Calculation</a></span></li></ul></li><li><span><a href="#Precision" data-toc-modified-id="Precision-8.4"><span class="toc-item-num">8.4&nbsp;&nbsp;</span>Precision</a></span><ul class="toc-item"><li><span><a href="#Manual-Calculation" data-toc-modified-id="Manual-Calculation-8.4.1"><span class="toc-item-num">8.4.1&nbsp;&nbsp;</span>Manual Calculation</a></span></li><li><span><a href="#ScikitLearn-Calculation" data-toc-modified-id="ScikitLearn-Calculation-8.4.2"><span class="toc-item-num">8.4.2&nbsp;&nbsp;</span>ScikitLearn Calculation</a></span></li></ul></li><li><span><a href="#F1-(Harmonic-Mean)" data-toc-modified-id="F1-(Harmonic-Mean)-8.5"><span class="toc-item-num">8.5&nbsp;&nbsp;</span>F1 (Harmonic Mean)</a></span><ul class="toc-item"><li><span><a href="#Manual-Calculation" data-toc-modified-id="Manual-Calculation-8.5.1"><span class="toc-item-num">8.5.1&nbsp;&nbsp;</span>Manual Calculation</a></span></li><li><span><a href="#ScikitLearn-Calculation" data-toc-modified-id="ScikitLearn-Calculation-8.5.2"><span class="toc-item-num">8.5.2&nbsp;&nbsp;</span>ScikitLearn Calculation</a></span></li></ul></li><li><span><a href="#Classification-Report" data-toc-modified-id="Classification-Report-8.6"><span class="toc-item-num">8.6&nbsp;&nbsp;</span>Classification Report</a></span></li><li><span><a href="#ROC" data-toc-modified-id="ROC-8.7"><span class="toc-item-num">8.7&nbsp;&nbsp;</span>ROC</a></span></li><li><span><a href="#Precision-Recall-Curve" data-toc-modified-id="Precision-Recall-Curve-8.8"><span class="toc-item-num">8.8&nbsp;&nbsp;</span>Precision-Recall Curve</a></span></li><li><span><a href="#Cumulative-Gains-Plot" data-toc-modified-id="Cumulative-Gains-Plot-8.9"><span class="toc-item-num">8.9&nbsp;&nbsp;</span>Cumulative Gains Plot</a></span></li><li><span><a href="#Lift-Curve" data-toc-modified-id="Lift-Curve-8.10"><span class="toc-item-num">8.10&nbsp;&nbsp;</span>Lift Curve</a></span></li><li><span><a href="#Class-Prediction-Error" data-toc-modified-id="Class-Prediction-Error-8.11"><span class="toc-item-num">8.11&nbsp;&nbsp;</span>Class Prediction Error</a></span></li><li><span><a href="#Discrimination-Threshold" data-toc-modified-id="Discrimination-Threshold-8.12"><span class="toc-item-num">8.12&nbsp;&nbsp;</span>Discrimination Threshold</a></span></li></ul></li><li><span><a href="#Tuning-Decision-Threshold" data-toc-modified-id="Tuning-Decision-Threshold-9"><span class="toc-item-num">9&nbsp;&nbsp;</span>Tuning Decision Threshold</a></span><ul class="toc-item"><li><span><a href="#Identify-Everyone-Making-<=50K" data-toc-modified-id="Identify-Everyone-Making-<=50K-9.1"><span class="toc-item-num">9.1&nbsp;&nbsp;</span>Identify Everyone Making &lt;=50K</a></span></li><li><span><a href="#Correctly-Identify-Everyone-Making-<=50K" data-toc-modified-id="Correctly-Identify-Everyone-Making-<=50K-9.2"><span class="toc-item-num">9.2&nbsp;&nbsp;</span>Correctly Identify Everyone Making &lt;=50K</a></span></li></ul></li><li><span><a href="#Model-Exploration" data-toc-modified-id="Model-Exploration-10"><span class="toc-item-num">10&nbsp;&nbsp;</span>Model Exploration</a></span><ul class="toc-item"><li><span><a href="#Shapley-Additive-Explanations-(SHAP)" data-toc-modified-id="Shapley-Additive-Explanations-(SHAP)-10.1"><span class="toc-item-num">10.1&nbsp;&nbsp;</span>Shapley Additive Explanations (SHAP)</a></span></li><li><span><a href="#Force-Plot" data-toc-modified-id="Force-Plot-10.2"><span class="toc-item-num">10.2&nbsp;&nbsp;</span>Force Plot</a></span><ul class="toc-item"><li><span><a href="#<=50K-Force-Plot" data-toc-modified-id="<=50K-Force-Plot-10.2.1"><span class="toc-item-num">10.2.1&nbsp;&nbsp;</span>&lt;=50K Force Plot</a></span></li><li><span><a href="#>50K-Force-Plot" data-toc-modified-id=">50K-Force-Plot-10.2.2"><span class="toc-item-num">10.2.2&nbsp;&nbsp;</span>&gt;50K Force Plot</a></span></li></ul></li><li><span><a href="#Bee-Swarm-Plot" data-toc-modified-id="Bee-Swarm-Plot-10.3"><span class="toc-item-num">10.3&nbsp;&nbsp;</span>Bee Swarm Plot</a></span></li><li><span><a href="#SHAP-Bar-Plot" data-toc-modified-id="SHAP-Bar-Plot-10.4"><span class="toc-item-num">10.4&nbsp;&nbsp;</span>SHAP Bar Plot</a></span></li><li><span><a href="#SHAP-Dot-Plot" data-toc-modified-id="SHAP-Dot-Plot-10.5"><span class="toc-item-num">10.5&nbsp;&nbsp;</span>SHAP Dot Plot</a></span><ul class="toc-item"><li><span><a href="#SHAP-Dot-Plot:-gender_Male" data-toc-modified-id="SHAP-Dot-Plot:-gender_Male-10.5.1"><span class="toc-item-num">10.5.1&nbsp;&nbsp;</span>SHAP Dot Plot: gender_Male</a></span></li><li><span><a href="#SHAP-Dot-Plot:-gender_Male" data-toc-modified-id="SHAP-Dot-Plot:-gender_Male-10.5.2"><span class="toc-item-num">10.5.2&nbsp;&nbsp;</span>SHAP Dot Plot: gender_Male</a></span></li></ul></li></ul></li><li><span><a href="#Conclusion" data-toc-modified-id="Conclusion-11"><span class="toc-item-num">11&nbsp;&nbsp;</span>Conclusion</a></span></li></ul></div>
 
-=======
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 # Census Income Data Set
 
 ## Introduction
 A census is the procedure of systematically acquiring and recording information about the members of a given population. The census is a special, wide-range activity, which takes place once a decade in the entire country. The purpose is to gather information about the general population, in order to present a full and reliable picture of the population in the country - its housing conditions and demographic, social and economic characteristics. The information collected includes data on age, gender, country of origin, marital status, housing conditions, marriage, education, employment, etc.
 
-<<<<<<< HEAD
 ## Data Description
 This data was extracted from the 1994 Census bureau database by Ronny Kohavi and Barry Becker (Data Mining and Visualization, Silicon Graphics). The prediction task is to determine whether a person makes less than $50K a year.
 
@@ -61,57 +57,6 @@ Below is a description of all categorical predictors in the dataset.
 ## Continuous Attributes
 Below is a description of all the continuous predictors in the dataset.
 
-=======
-### Data description
-This data was extracted from the 1994 Census bureau database by Ronny Kohavi and Barry Becker (Data Mining and Visualization, Silicon Graphics). The prediction task is to determine whether a person makes over $50K a year.
-
-### Categorical Attributes
-
-- **workclass**: Individual work category
-<br>
-    - levels: Private, Self-emp-not-inc, Self-emp-inc, Federal-gov, Local-gov, State-gov, Without-pay, Never-worked.
-<br>
-<br>
-- **education**: Individual's highest education degree
-<br>
-    - levels: Bachelors, Some-college, 11th, HS-grad, Prof-school, Assoc-acdm, Assoc-voc, 9th, 7th-8th, 12th, Masters, 1st-4th, 10th, Doctorate, 5th-6th, Preschool.
-<br>
-<br>
-- **marital-status**: Individual marital status
-<br>
-    - levels: Married-civ-spouse, Divorced, Never-married, Separated, Widowed, Married-spouse-absent, Married-AF-spouse.
-<br>
-<br>
-- **occupation**: Individual's occupation
-<br>
-    - levels: Tech-support, Craft-repair, Other-service, Sales, Exec-managerial, Prof-specialty, Handlers-cleaners, Machine-op-inspct, Adm-clerical, Farming-fishing, Transport-moving, Priv-house-serv, Protective-serv, Armed-Forces.
-<br>
-<br>
-- **relationship**: Individual's relation in a family
-<br>
-    - levels: Wife, Own-child, Husband, Not-in-family, Other-relative, Unmarried.
-<br>
-<br>
-- **race**: Race of Individual
-<br>
-    - levels: White, Asian-Pac-Islander, Amer-Indian-Eskimo, Other, Black.
-<br>
-<br>
-- **sex**: Individual's sex
-<br>
-    - levels: Female, Male.
-<br>
-<br>
-- **native-country**: Individual's native country
-<br>
-    - levels: United-States, Cambodia, England, Puerto-Rico, Canada, Germany, Outlying-US(Guam-USVI-etc), India, Japan, Greece, South, China, Cuba, Iran, Honduras, Philippines, Italy, Poland, Jamaica, Vietnam, Mexico, Portugal, Ireland, France, Dominican-Republic, Laos, Ecuador, Taiwan, Haiti, Columbia, Hungary, Guatemala, Nicaragua, Scotland, Thailand, Yugoslavia, El-Salvador, Trinadad&Tobago, Peru, Hong, Holand-Netherlands.
-<br>
-<br>
-
-
-### Continuous Attributes
-
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 - **age**: Age of an individual
 <br>
 - **fnlwgt**: final weight 
@@ -136,15 +81,12 @@ import seaborn as sns
 import pandas as pd
 import numpy as np
 import scikitplot
-<<<<<<< HEAD
 import missingno as msno
 from pathlib import Path
 import warnings
 import random
 from lime import lime_tabular
 import shap
-=======
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 from sklearn import ensemble, preprocessing, tree, model_selection, metrics
 from sklearn.preprocessing import StandardScaler
 from sklearn.dummy import DummyClassifier
@@ -160,7 +102,6 @@ import xgboost
 from mlxtend.classifier import StackingClassifier
 from yellowbrick.classifier import ConfusionMatrix, ROCAUC, ClassificationReport, PrecisionRecallCurve, DiscriminationThreshold, ClassPredictionError, ClassBalance
 from yellowbrick.model_selection import LearningCurve, ValidationCurve
-<<<<<<< HEAD
 ```
 
 ## Suppress Warnings
@@ -177,15 +118,6 @@ warnings.warn = warn
 ```
 
 ## Set Seed
-=======
-import missingno as msno
-from pathlib import Path
-import warnings
-import random
-```
-
-### Set Seed
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 ```python
@@ -193,11 +125,7 @@ import random
 random.seed(10)
 ```
 
-<<<<<<< HEAD
 ## Display Options
-=======
-### Display Options
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 ```python
@@ -219,12 +147,8 @@ pd.set_option('display.max_rows', None)
     C:\Users\STPI0560\Desktop\Python Projects\Adult Income
     
 
-<<<<<<< HEAD
 ## Define Custom Functions
 If I do something similar more than once, I will write a function so as not to clutter up the workspace. Each of these functions will be run multiple times throughout this analysis.
-=======
-### Define Custom Functions
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 ```python
@@ -280,11 +204,7 @@ def plotPredictors(data, predictor, width, height):
     ax = sns.countplot(x = predictor, data = data, hue = "income")
     
     # If predictor is occupation, tilt x-axis labels (so they fit)...
-<<<<<<< HEAD
     if predictor == "occupation" or "native_country":
-=======
-    if predictor == "occupation" or "native-country":
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
         plt.xticks(rotation=30)
         for p in ax.patches:
             height = p.get_height()
@@ -294,7 +214,6 @@ def plotPredictors(data, predictor, width, height):
         for p in ax.patches:
             height = p.get_height()
             return plt.show()
-<<<<<<< HEAD
 ```
 
 
@@ -410,8 +329,6 @@ def testxgboost(classifierList, X_train, y_train, X_vl, y_val):
     
     # Return dataframe with performance of each model.
     return model_df
-=======
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
 
 ## Load Data
@@ -422,11 +339,7 @@ def testxgboost(classifierList, X_train, y_train, X_vl, y_val):
 df = pd.read_csv('data\Adult.csv')
 ```
 
-<<<<<<< HEAD
 ## Check Data Structure
-=======
-### Check Data Structure
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 ```python
@@ -867,23 +780,14 @@ Dashes (-) can sometimes cause problems in predictor names. Below I change all d
 
 
 ```python
-<<<<<<< HEAD
 # Remove '-' from column names.
 df = df.rename(columns = {'educational-num': 'educational_num', 'marital-status': 'marital_status', 'capital-gain': 'capital_gain', 'capital-loss': 'capital_loss', 'hours-per-week': 'hours_per_week', 'native-country': 'native_country'})
-=======
-# Remove "-" from column names.
-df = df.rename(columns={'educational-num': 'educational_num', 'marital-status': 'marital_status', 'capital-gain': 'capital_gain', 'capital-loss': 'capital_loss', 'hours-per-week': 'hours_per_week', 'native-country': 'native_country'})
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
 
 # Missing Data
 I always check for missing data first, and if there is missing data, the extent of its missingness will determine how I deal with it.
 
-<<<<<<< HEAD
 ## Missing Data List
-=======
-### Missing Data List
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 ```python
@@ -931,7 +835,6 @@ Below I'm going to simultaniously plot the data and clean it if necessary. I'll 
 
 
 ```python
-<<<<<<< HEAD
 # set a grey background.
 sns.set(style = 'darkgrid')
 
@@ -943,41 +846,17 @@ plotPredictors(df, 'workclass', 12, 7)
     
 ![png](output_37_0.png)
     
-=======
-# Amount of missing data per predictor. White spots indicate missing values. If missing data are non-random, the line
-# on the right of the graph will show a pattern.
-ax = msno.matrix(df.sample(10000))
-ax.get_figure().savefig('results\missingdata1.png')
-```
-
-
-![png](output_29_0.png)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 Some data are labelled "?". I could deal with this in a miriad of ways. I could remove all observations, or code a new column that is 1 when that observation was missing data, and 0 otherwise. Additionally, I could replace all "?" labels with the most frequent class label. To make this more concrete, I'll look at the percentage of the dataset containing people whose workclass is labelled "Private", and what precentage are labelled "?".
 
 
 ```python
-<<<<<<< HEAD
 # Display percentage of each instance in "workclass" column,
 df['workclass'].value_counts(normalize = True) * 100
 ```
 
 
-=======
-# set a grey background.
-sns.set(style="darkgrid")
-
-# Display proportion of non-missing data for each predictor.
-fig, ax = plt.subplots(figsize = (8, 6))
-(1 - df.isnull().mean()).abs().plot.bar(ax = ax)
-fig.savefig("results/missingdata2.png", dpi = 300)
-```
-
-
-![png](output_31_0.png)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
     Private             69.419762
@@ -1004,7 +883,6 @@ df['workclass'] = df['workclass'].str.replace('?', 'Private')
 
 ```python
 # set a grey background.
-<<<<<<< HEAD
 sns.set(style = 'darkgrid')
 
 # Replot "workclass" labels.
@@ -1017,20 +895,9 @@ plotPredictors(df, 'workclass', 12, 8)
     
 
 
-=======
-sns.set(style="darkgrid")
-
-# Plot "workclass" labels.
-plotPredictors(df, "workclass", 12, 7)
-```
-
-
-![png](output_35_0.png)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
     ---------------------------------------------------------------------------
 
-<<<<<<< HEAD
     AttributeError                            Traceback (most recent call last)
 
     <ipython-input-431-1ff445184ad4> in <module>
@@ -1053,14 +920,6 @@ sns.set(style = 'darkgrid')
 
 # Plot "education" column labels.
 plotPredictors(df, 'education', 20, 8)
-=======
-Some data are labelled "?". Many options on how to deal with this. We could remove all observations, or code a new column that is 1 when that observation was missing data, and 0 otherwise. What percentage of the dataset contains people whose workclass is "Private"?
-
-
-```python
-# Display percentage of each instance in "workclass" column,
-df['workclass'].value_counts(normalize = True) * 100
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
 
 
@@ -1090,26 +949,15 @@ Conclusion: This variable looks like a categorical version of "education". Thus,
 
 
 ```python
-<<<<<<< HEAD
 # Drop "educational_num" column.
 df = df.drop(columns = ['educational_num'])
 ```
 
 ## Marital-status
-=======
-# Replace all instances of "?" in the "worclass" column with "Private",
-df['workclass'] = df['workclass'].str.replace("?","Private")
-```
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\ipykernel_launcher.py:2: FutureWarning: The default value of regex will change from True to False in a future version. In addition, single character regular expressions will*not* be treated as literal strings when regex=True.
-      
-    
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 ```python
 # set a grey background.
-<<<<<<< HEAD
 sns.set(style = 'darkgrid')
 
 # Plot "marital_status" column labels.
@@ -1193,48 +1041,14 @@ plotPredictors(df, 'occupation', 20, 8)
 ![png](output_59_0.png)
     
 
-=======
-sns.set(style="darkgrid")
-
-# Replot "workclass" labels.
-plotPredictors(df, "workclass", 12, 8)
-```
-
-
-![png](output_40_0.png)
-
-
-#### Interpretation:
-Majority of people in all working class make less than '$50,000' a year, with the exception of those who are self-employed. 
-
-### Education
-
-
-```python
-# set a grey background.
-sns.set(style="darkgrid")
-
-# Plot "education" column labels.
-plotPredictors(df, "education", 20, 8)
-```
-
-
-![png](output_43_0.png)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 Conclusion: A few groups (e.g. "Exec-managerial", "Prof-specialty") seem to make the majority of people making >50K.
 
-<<<<<<< HEAD
 ## Relationship
-=======
-#### Interpretation:
-Some data from individuals in preschool and grade school. Might not be useful since anyone in elementary school or below won't make money, so we can always predict that they make less than 50,000 a year. However, these values may also help the model find patterns in those making less than 50,000 per year. Thus, we will keep them in.
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 ```python
 # set a grey background.
-<<<<<<< HEAD
 sns.set(style = 'darkgrid')
 
 # Plot "relationship" column labels.
@@ -1246,20 +1060,9 @@ plotPredictors(df, 'relationship', 10, 8)
 ![png](output_62_0.png)
     
 
-=======
-sns.set(style="darkgrid")
-
-# Plot "educational_num" column labels.
-plotPredictors(df, "educational_num", 12, 8)
-```
-
-
-![png](output_45_0.png)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 Conclusion: While wives are much less represented (probably because the dataset has more males), they seem to be just as likely to be in either category of the response variable. However, married people in general earn more.
 
-<<<<<<< HEAD
 ## Race
 
 
@@ -1269,15 +1072,6 @@ sns.set(style = 'darkgrid')
 
 # Plot "race" column labels.
 plotPredictors(df, 'race', 10, 8)
-=======
-#### Interpretation: 
-This variable looks like a categorical version of "education". Redundent, so can probably be removed.
-
-
-```python
-# Drop "educational_num" column.
-df = df.drop(columns=['educational_num'])
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
 
 
@@ -1293,7 +1087,6 @@ Conclusion: The race "White" seems to be more likely to make >50K, but they are 
 
 ```python
 # set a grey background.
-<<<<<<< HEAD
 sns.set(style = 'darkgrid')
 
 # Plot "gender" column labels.
@@ -1307,27 +1100,12 @@ plotPredictors(df, 'gender', 7, 8)
 
 
 Conclusion: Males are more likely to make >50K than females, even accounting for their greater representation in the dataset.
-=======
-sns.set(style="darkgrid")
-
-# Plot marital_status" column labels.
-plotPredictors(df, "marital_status", 14, 8)
-```
-
-
-![png](output_49_0.png)
-
-
-#### Interpretation:
-Unsurprisingly, married people seem to be the group who make a majority of people making more than 50,000 per year.
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 ## Native-Country
 
 
 ```python
 # set a grey background.
-<<<<<<< HEAD
 sns.set(style = 'darkgrid')
 
 # Plot "gender" column labels.
@@ -1466,110 +1244,17 @@ sns.scatterplot(data = df, x = 'capital_gain', y = 'capital_loss', hue = 'income
     
 ![png](output_81_0.png)
     
-=======
-sns.set(style="darkgrid")
-
-# Plot "occupation" column labels.
-plotPredictors(df, "occupation", 18, 12)
-```
-
-
-![png](output_52_0.png)
-
-
-Conclusion:Some data are labelled "?".
-
-
-```python
-# Display percentage of each instance in "workclass" column,
-df['occupation'].value_counts(normalize = True) * 100
-```
-
-
-
-
-    Prof-specialty       12.636665
-    Craft-repair         12.513820
-    Exec-managerial      12.460587
-    Adm-clerical         11.488064
-    Sales                11.268990
-    Other-service        10.079440
-    Machine-op-inspct     6.187298
-    ?                     5.751198
-    Transport-moving      4.821670
-    Handlers-cleaners     4.242251
-    Farming-fishing       3.050653
-    Tech-support          2.960567
-    Protective-serv       2.012612
-    Priv-house-serv       0.495475
-    Armed-Forces          0.030711
-    Name: occupation, dtype: float64
-
-
-
-
-```python
-# Replace all instances of "?" with "Prof-specialty".
-df['occupation'] = df['occupation'].str.replace("?","Prof-speciality")
-```
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\ipykernel_launcher.py:2: FutureWarning: The default value of regex will change from True to False in a future version. In addition, single character regular expressions will*not* be treated as literal strings when regex=True.
-      
-    
-
-
-```python
-# set a grey background.
-sns.set(style="darkgrid")
-
-# Replot "occupation" column labels.
-plotPredictors(df, "occupation", 20, 8)
-```
-
-
-![png](output_56_0.png)
-
-
-#### Interpretation:
-A few groups (for instance, Exec-managerial) seem to make the majority of people making more than 50,000 per year.
-
-### Relationship
-
-
-```python
-# set a grey background.
-sns.set(style="darkgrid")
-
-# Plot "relationship" column labels.
-plotPredictors(df, "relationship", 10, 8)
-```
-
-
-![png](output_59_0.png)
-
-
-#### Interpretation:
-While wives are much less represented (probably because the dataset has more males), they seem to be just as likely to be in either category. Married people in general earn more.
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 Conclusion: When people have zero capital gain, they have large capital-loss, and vis-versa. Perhaps these can be combined into a "capital-diff" difference score variable.
 
 
 ```python
-<<<<<<< HEAD
 # Make column "capital_diff" by taking the difference between "capital_gain" and "capital_loss".
 df['capital_diff'] = df['capital_loss'] - df['capital_gain']
 
 # Drop columns "capital_gain" and "capital_loss".
 df = df.drop(columns = ['capital_gain', 'capital_loss'])
-=======
-# set a grey background.
-sns.set(style="darkgrid")
-
-# Plot "race" column labels.
-plotPredictors(df, "race", 10, 8)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
 
 ## Age
@@ -1593,27 +1278,17 @@ ax = sns.distplot(df[~mask].age,label = '>50K')
 ax.legend();
 ```
 
-<<<<<<< HEAD
-=======
-![png](output_62_0.png)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
     
 ![png](output_85_0.png)
     
 
-<<<<<<< HEAD
-=======
-#### Interpretation:
-Whites seem to be more likely to make more the 50,000 per year.
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 Conclusion: People making <=50K are skewed towards being younger, however, these proportions become almost identical once people reach retirement.
 
 
 ```python
 # set a grey background.
-<<<<<<< HEAD
 sns.set(style = 'darkgrid')
 
 # Display box and whisker plot for "age" column.
@@ -1638,247 +1313,6 @@ print('The minimum age is:', df['age'].min(), '\n')
 
 # Print list of people with preschool-only education.
 print('List of people with Preschool education: \n')
-=======
-sns.set(style="darkgrid")
-
-# Plot "gender" column labels.
-plotPredictors(df, "gender", 7, 8)
-```
-
-
-![png](output_65_0.png)
-
-
-#### Interpretation:
-Males are more likely to make more than 50,000 per year.
-
-### Native-Country
-
-
-```python
-# set a grey background.
-sns.set(style="darkgrid")
-
-# Plot "gender" column labels.
-plotPredictors(df, "native_country", 15, 8)
-```
-
-
-![png](output_68_0.png)
-
-
-United states is so dominant, it is hard to see the other groups. We should remove the United States to see the others better.
-
-
-```python
-#df2 = (df['native_country'] == 'United-States')
-
-df2 = df[df['native_country'] != 'United-States']
-
-# set a grey background.
-sns.set(style="darkgrid")
-
-# Plot "gender" column labels.
-plotPredictors(df2, "native_country", 15, 8)
-```
-
-
-![png](output_70_0.png)
-
-
-Some data are labelled "?". We should see how they are represented compared to the other groups.
-
-
-```python
-# Display percentage of each instance in "workclass" column,
-df['native_country'].value_counts(normalize = True) * 100
-```
-
-
-
-
-    United-States                 89.742435
-    Mexico                         1.947095
-    ?                              1.754637
-    Philippines                    0.603988
-    Germany                        0.421768
-    Puerto-Rico                    0.376725
-    Canada                         0.372630
-    El-Salvador                    0.317350
-    India                          0.309160
-    Cuba                           0.282544
-    England                        0.260022
-    China                          0.249785
-    South                          0.235453
-    Jamaica                        0.217026
-    Italy                          0.214979
-    Dominican-Republic             0.210884
-    Japan                          0.188362
-    Guatemala                      0.180173
-    Poland                         0.178125
-    Vietnam                        0.176078
-    Columbia                       0.174031
-    Haiti                          0.153556
-    Portugal                       0.137177
-    Taiwan                         0.133082
-    Iran                           0.120798
-    Greece                         0.100323
-    Nicaragua                      0.100323
-    Peru                           0.094181
-    Ecuador                        0.092134
-    France                         0.077802
-    Ireland                        0.075754
-    Thailand                       0.061423
-    Hong                           0.061423
-    Cambodia                       0.057328
-    Trinadad&Tobago                0.055280
-    Yugoslavia                     0.047091
-    Outlying-US(Guam-USVI-etc)     0.047091
-    Laos                           0.047091
-    Scotland                       0.042996
-    Honduras                       0.040948
-    Hungary                        0.038901
-    Holand-Netherlands             0.002047
-    Name: native_country, dtype: float64
-
-
-
-1.7% of respondents have '?' as a country. Since the United States covers 89% of respondents native countries, I will replace all '?' with 'United-States'. Additionally, 1.75% of respondents are listed as being from 'Inited States'. This is a strange error, but these will all be changed to United States as well.
-
-
-```python
-# Replace all instances of "?" in the "worclass" column with "Private",
-df['native_country'] = df['native_country'].str.replace("?","United-States")
-df['native_country'] = df['native_country'].str.replace("Inited-States","United-States")
-```
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\ipykernel_launcher.py:2: FutureWarning: The default value of regex will change from True to False in a future version. In addition, single character regular expressions will*not* be treated as literal strings when regex=True.
-      
-    
-
-
-```python
-df2 = df[df['native_country'] != 'United-States']
-
-# set a grey background.
-sns.set(style="darkgrid")
-
-# Plot "gender" column labels.
-plotPredictors(df2, "native_country", 15, 8)
-```
-
-
-![png](output_75_0.png)
-
-
-#### Interpretation
-No group is more likely to make more than 50,000 per year, but groups like Guatemala are far more likely to make less than 50,000 per year.
-
-### Capital-Gain/Capital-loss
-
-
-```python
-# set a grey background.
-sns.set(style="darkgrid")
-
-# Set plot layout.
-fig, ax = plt.subplots(figsize=(6, 4))
-
-# Dsiplay scatterplot.
-#df.plot.scatter(x = "capital_gain", y = "capital_loss", ax = ax, alpha = 0.3)
-
-sns.scatterplot(data=df, x="capital_gain", y="capital_loss", hue="income")
-```
-
-
-
-
-    <AxesSubplot:xlabel='capital_gain', ylabel='capital_loss'>
-
-
-
-
-![png](output_78_1.png)
-
-
-#### Interpretation:
-When people have zero capital gain, they have large capital-loss, and vis-versa. Perhaps these can be combined into a "capital-change" difference score variable.
-
-
-```python
-# Make column "capital_diff" by taking the difference between "capital_gain" and "capital_loss".
-df["capital_diff"] = df["capital_loss"] - df["capital_gain"]
-
-# Drop columns "capital_gain" and "capital_loss".
-df = df.drop(columns=['capital_gain', 'capital_loss'])
-```
-
-### Age
-
-
-```python
-# set a grey background.
-sns.set(style="darkgrid")
-
-# Set plot layout.
-fig, ax = plt.subplots(figsize=(12, 8))
-
-# Make indicator for "income" plot.
-mask = df["income"] == "<=50K"
-
-# Split data by indicator.
-ax = sns.distplot(df[mask].age, label='<=50K')
-ax = sns.distplot(df[~mask].age,label='>=50K')
-
-# Add legend.
-ax.legend()
-```
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\seaborn\distributions.py:2557: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `histplot` (an axes-level function for histograms).
-      warnings.warn(msg, FutureWarning)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\seaborn\distributions.py:2557: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `histplot` (an axes-level function for histograms).
-      warnings.warn(msg, FutureWarning)
-    
-
-
-
-
-    <matplotlib.legend.Legend at 0x224a18a5388>
-
-
-
-
-![png](output_82_2.png)
-
-
-#### Interpretation:
-People making less than 50,000 a year are younger, however, these proportions become almost identical once people reach retirement.
-
-
-```python
-# set a grey background.
-sns.set(style="darkgrid")
-
-# Display box and whisker plot for "age" column.
-df['age'].plot(kind='box')
-
-# Display plot.
-plt.show()
-```
-
-
-![png](output_84_0.png)
-
-
-#### Interpretation:
-Some outliers, but that's fine here. However, looking at the previous summary, the youngest person in the dataset is 17, yet there are people whose education stops at preschool. How is that possible?
-
-
-```python
-print("The minimum age is:", df['age'].min(), "\n")
-
-print("List of people with Preschool education: \n")
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 df.loc[df['education'] == 'Preschool']
 ```
 
@@ -1954,8 +1388,6 @@ df.loc[df['education'] == 'Preschool']
       <td>Male</td>
       <td>25</td>
       <td>Mexico</td>
-<<<<<<< HEAD
-=======
       <td>&lt;=50K</td>
       <td>0</td>
     </tr>
@@ -1988,25 +1420,10 @@ df.loc[df['education'] == 'Preschool']
       <td>Male</td>
       <td>25</td>
       <td>United-States</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
       <td>&lt;=50K</td>
       <td>0</td>
     </tr>
     <tr>
-<<<<<<< HEAD
-      <th>1029</th>
-      <td>57</td>
-      <td>Private</td>
-      <td>274680</td>
-      <td>Preschool</td>
-      <td>Separated</td>
-      <td>Prof-speciality</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>United-States</td>
-=======
       <th>1489</th>
       <td>19</td>
       <td>Private</td>
@@ -2067,210 +1484,10 @@ df.loc[df['education'] == 'Preschool']
       <td>Male</td>
       <td>40</td>
       <td>Mexico</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
       <td>&lt;=50K</td>
       <td>0</td>
     </tr>
     <tr>
-<<<<<<< HEAD
-      <th>1059</th>
-      <td>31</td>
-      <td>Private</td>
-      <td>25610</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Handlers-cleaners</td>
-      <td>Not-in-family</td>
-      <td>Amer-Indian-Eskimo</td>
-      <td>Male</td>
-      <td>25</td>
-=======
-      <th>3037</th>
-      <td>54</td>
-      <td>Private</td>
-      <td>99208</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Prof-speciality</td>
-      <td>Husband</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>16</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>United-States</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-<<<<<<< HEAD
-      <th>1489</th>
-      <td>19</td>
-      <td>Private</td>
-      <td>277695</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Farming-fishing</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>36</td>
-=======
-      <th>3540</th>
-      <td>29</td>
-      <td>Private</td>
-      <td>565769</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Prof-speciality</td>
-      <td>Not-in-family</td>
-      <td>Black</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>South</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>4426</th>
-      <td>30</td>
-      <td>Private</td>
-      <td>408328</td>
-      <td>Preschool</td>
-      <td>Married-spouse-absent</td>
-      <td>Handlers-cleaners</td>
-      <td>Unmarried</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-<<<<<<< HEAD
-      <th>1498</th>
-      <td>37</td>
-      <td>Self-emp-not-inc</td>
-      <td>227253</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Sales</td>
-      <td>Husband</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>30</td>
-=======
-      <th>4629</th>
-      <td>28</td>
-      <td>Private</td>
-      <td>203784</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Farming-fishing</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>38</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-<<<<<<< HEAD
-      <th>2364</th>
-      <td>21</td>
-      <td>Private</td>
-      <td>436431</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Prof-speciality</td>
-      <td>Other-relative</td>
-      <td>White</td>
-      <td>Female</td>
-      <td>40</td>
-      <td>Mexico</td>
-=======
-      <th>4729</th>
-      <td>50</td>
-      <td>Private</td>
-      <td>176773</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Farming-fishing</td>
-      <td>Husband</td>
-      <td>Black</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>Haiti</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>5795</th>
-      <td>22</td>
-      <td>Private</td>
-      <td>267412</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Other-service</td>
-      <td>Own-child</td>
-      <td>Black</td>
-      <td>Female</td>
-      <td>20</td>
-      <td>Jamaica</td>
-      <td>&lt;=50K</td>
-      <td>-594</td>
-    </tr>
-    <tr>
-      <th>7054</th>
-      <td>77</td>
-      <td>Self-emp-not-inc</td>
-      <td>161552</td>
-      <td>Preschool</td>
-      <td>Widowed</td>
-      <td>Exec-managerial</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Female</td>
-      <td>60</td>
-      <td>United-States</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-<<<<<<< HEAD
-      <th>2465</th>
-      <td>24</td>
-      <td>Private</td>
-      <td>403107</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Adm-clerical</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Male</td>
-=======
-      <th>7307</th>
-      <td>60</td>
-      <td>Self-emp-not-inc</td>
-      <td>269485</td>
-      <td>Preschool</td>
-      <td>Divorced</td>
-      <td>Other-service</td>
-      <td>Unmarried</td>
-      <td>White</td>
-      <td>Female</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>40</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-<<<<<<< HEAD
       <th>3037</th>
       <td>54</td>
       <td>Private</td>
@@ -2299,25 +1516,10 @@ df.loc[df['education'] == 'Preschool']
       <td>Male</td>
       <td>40</td>
       <td>South</td>
-=======
-      <th>7438</th>
-      <td>61</td>
-      <td>Self-emp-not-inc</td>
-      <td>243019</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Craft-repair</td>
-      <td>Husband</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>United-States</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
       <td>&lt;=50K</td>
       <td>0</td>
     </tr>
     <tr>
-<<<<<<< HEAD
       <th>4426</th>
       <td>30</td>
       <td>Private</td>
@@ -2326,16 +1528,6 @@ df.loc[df['education'] == 'Preschool']
       <td>Married-spouse-absent</td>
       <td>Handlers-cleaners</td>
       <td>Unmarried</td>
-=======
-      <th>7485</th>
-      <td>37</td>
-      <td>Private</td>
-      <td>216845</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Farming-fishing</td>
-      <td>Husband</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
       <td>White</td>
       <td>Male</td>
       <td>40</td>
@@ -2344,7 +1536,6 @@ df.loc[df['education'] == 'Preschool']
       <td>0</td>
     </tr>
     <tr>
-<<<<<<< HEAD
       <th>4629</th>
       <td>28</td>
       <td>Private</td>
@@ -2357,25 +1548,10 @@ df.loc[df['education'] == 'Preschool']
       <td>Male</td>
       <td>38</td>
       <td>Mexico</td>
-=======
-      <th>7736</th>
-      <td>30</td>
-      <td>Private</td>
-      <td>90308</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Other-service</td>
-      <td>Unmarried</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>28</td>
-      <td>El-Salvador</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
       <td>&lt;=50K</td>
       <td>0</td>
     </tr>
     <tr>
-<<<<<<< HEAD
       <th>4729</th>
       <td>50</td>
       <td>Private</td>
@@ -2704,960 +1880,6 @@ df.loc[df['education'] == 'Preschool']
       <td>Never-married</td>
       <td>Machine-op-inspct</td>
       <td>Not-in-family</td>
-      <td>White</td>
-      <td>Female</td>
-      <td>35</td>
-      <td>United-States</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>17213</th>
-      <td>51</td>
-      <td>Local-gov</td>
-      <td>241843</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Other-service</td>
-      <td>Husband</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>United-States</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>19165</th>
-      <td>71</td>
-      <td>Private</td>
-      <td>235079</td>
-      <td>Preschool</td>
-      <td>Widowed</td>
-      <td>Craft-repair</td>
-      <td>Unmarried</td>
-      <td>Black</td>
-      <td>Male</td>
-      <td>10</td>
-      <td>United-States</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>19227</th>
-      <td>31</td>
-      <td>Private</td>
-      <td>452405</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Other-service</td>
-      <td>Other-relative</td>
-      <td>White</td>
-      <td>Female</td>
-      <td>35</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>19727</th>
-      <td>33</td>
-      <td>Private</td>
-      <td>239781</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Farming-fishing</td>
-      <td>Husband</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>19873</th>
-      <td>39</td>
-      <td>Private</td>
-      <td>362685</td>
-      <td>Preschool</td>
-      <td>Widowed</td>
-      <td>Prof-speciality</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Female</td>
-      <td>20</td>
-      <td>El-Salvador</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>20388</th>
-      <td>52</td>
-      <td>Private</td>
-      <td>416129</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Other-service</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>El-Salvador</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>22714</th>
-      <td>27</td>
-      <td>Private</td>
-      <td>211032</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Farming-fishing</td>
-      <td>Other-relative</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>24</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>-41310</td>
-    </tr>
-    <tr>
-      <th>23145</th>
-      <td>54</td>
-      <td>Private</td>
-      <td>286989</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Farming-fishing</td>
-      <td>Husband</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>60</td>
-      <td>United-States</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>23351</th>
-      <td>30</td>
-      <td>Private</td>
-      <td>193598</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Farming-fishing</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>23454</th>
-      <td>64</td>
-      <td>Private</td>
-      <td>140237</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Prof-speciality</td>
-      <td>Husband</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>United-States</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>24175</th>
-      <td>26</td>
-      <td>Private</td>
-      <td>322614</td>
-      <td>Preschool</td>
-      <td>Married-spouse-absent</td>
-      <td>Machine-op-inspct</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>1719</td>
-    </tr>
-    <tr>
-      <th>24361</th>
-      <td>21</td>
-      <td>Private</td>
-      <td>243368</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Farming-fishing</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>50</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>24369</th>
-      <td>54</td>
-      <td>Private</td>
-      <td>148657</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Prof-speciality</td>
-      <td>Wife</td>
-      <td>White</td>
-      <td>Female</td>
-      <td>40</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>24377</th>
-      <td>52</td>
-      <td>Private</td>
-      <td>248113</td>
-      <td>Preschool</td>
-      <td>Married-spouse-absent</td>
-      <td>Prof-speciality</td>
-      <td>Other-relative</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>25056</th>
-      <td>20</td>
-      <td>Private</td>
-      <td>277700</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Other-service</td>
-      <td>Own-child</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>32</td>
-      <td>United-States</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>26591</th>
-      <td>59</td>
-      <td>Private</td>
-      <td>157305</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Machine-op-inspct</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>Dominican-Republic</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>27415</th>
-      <td>32</td>
-      <td>Private</td>
-      <td>112137</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Machine-op-inspct</td>
-      <td>Wife</td>
-      <td>Asian-Pac-Islander</td>
-      <td>Female</td>
-      <td>40</td>
-      <td>Cambodia</td>
-      <td>&lt;=50K</td>
-      <td>-4508</td>
-    </tr>
-    <tr>
-      <th>27641</th>
-      <td>53</td>
-      <td>Private</td>
-      <td>188644</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Other-service</td>
-      <td>Husband</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>28015</th>
-      <td>65</td>
-      <td>Private</td>
-      <td>293385</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Prof-speciality</td>
-      <td>Husband</td>
-      <td>Black</td>
-      <td>Male</td>
-      <td>30</td>
-      <td>United-States</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>29529</th>
-      <td>68</td>
-      <td>Private</td>
-      <td>168794</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Machine-op-inspct</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>10</td>
-      <td>United-States</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>31340</th>
-      <td>21</td>
-      <td>Private</td>
-      <td>243368</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Farming-fishing</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>50</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>32778</th>
-      <td>75</td>
-      <td>Private</td>
-      <td>71898</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Priv-house-serv</td>
-      <td>Not-in-family</td>
-      <td>Asian-Pac-Islander</td>
-      <td>Female</td>
-      <td>48</td>
-      <td>Philippines</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>32843</th>
-      <td>46</td>
-      <td>Private</td>
-      <td>225065</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Machine-op-inspct</td>
-      <td>Wife</td>
-      <td>White</td>
-      <td>Female</td>
-      <td>40</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>34696</th>
-      <td>24</td>
-      <td>Private</td>
-      <td>243368</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Farming-fishing</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>36</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>36721</th>
-      <td>63</td>
-      <td>Private</td>
-      <td>440607</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Prof-specialty</td>
-      <td>Husband</td>
-      <td>Other</td>
-      <td>Male</td>
-      <td>30</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>37651</th>
-      <td>61</td>
-      <td>Private</td>
-      <td>98350</td>
-      <td>Preschool</td>
-      <td>Married-spouse-absent</td>
-      <td>Other-service</td>
-      <td>Not-in-family</td>
-      <td>Asian-Pac-Islander</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>China</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>37669</th>
-      <td>24</td>
-      <td>Private</td>
-      <td>196678</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Machine-op-inspct</td>
-      <td>Own-child</td>
-      <td>White</td>
-      <td>Female</td>
-      <td>30</td>
-      <td>United-States</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>38003</th>
-      <td>49</td>
-      <td>Private</td>
-      <td>149809</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Other-service</td>
-      <td>Husband</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>United-States</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>38075</th>
-      <td>41</td>
-      <td>Local-gov</td>
-      <td>160893</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Handlers-cleaners</td>
-      <td>Own-child</td>
-      <td>White</td>
-      <td>Female</td>
-      <td>30</td>
-      <td>United-States</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>38448</th>
-      <td>39</td>
-      <td>Private</td>
-      <td>341741</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Other-service</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Female</td>
-      <td>12</td>
-      <td>United-States</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>38812</th>
-      <td>40</td>
-      <td>Private</td>
-      <td>182268</td>
-      <td>Preschool</td>
-      <td>Married-spouse-absent</td>
-      <td>Adm-clerical</td>
-      <td>Own-child</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>United-States</td>
-=======
-      <th>7773</th>
-      <td>19</td>
-      <td>Private</td>
-      <td>277695</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Farming-fishing</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>50</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>10304</th>
-      <td>50</td>
-      <td>Private</td>
-      <td>330543</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Other-service</td>
-      <td>Husband</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>10721</th>
-      <td>47</td>
-      <td>Private</td>
-      <td>98044</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Other-service</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>25</td>
-      <td>El-Salvador</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-<<<<<<< HEAD
-      <th>39221</th>
-      <td>25</td>
-      <td>Private</td>
-      <td>266820</td>
-=======
-      <th>10777</th>
-      <td>53</td>
-      <td>Private</td>
-      <td>308082</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Other-service</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-<<<<<<< HEAD
-      <td>Male</td>
-      <td>35</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>40456</th>
-      <td>54</td>
-      <td>Private</td>
-      <td>349340</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Craft-repair</td>
-      <td>Husband</td>
-      <td>Asian-Pac-Islander</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>India</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>40839</th>
-      <td>42</td>
-      <td>Private</td>
-      <td>572751</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Craft-repair</td>
-      <td>Husband</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>Nicaragua</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>40979</th>
-      <td>32</td>
-      <td>Private</td>
-      <td>223212</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Machine-op-inspct</td>
-      <td>Husband</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>Mexico</td>
-=======
-      <td>Female</td>
-      <td>15</td>
-      <td>El-Salvador</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-<<<<<<< HEAD
-      <th>41381</th>
-      <td>48</td>
-      <td>Private</td>
-      <td>209182</td>
-      <td>Preschool</td>
-      <td>Separated</td>
-      <td>Other-service</td>
-      <td>Unmarried</td>
-      <td>White</td>
-      <td>Female</td>
-      <td>40</td>
-      <td>El-Salvador</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>41394</th>
-      <td>23</td>
-      <td>Private</td>
-      <td>69911</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Other-service</td>
-      <td>Own-child</td>
-      <td>White</td>
-      <td>Female</td>
-      <td>15</td>
-      <td>United-States</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>41508</th>
-      <td>23</td>
-      <td>Private</td>
-      <td>240049</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Other-service</td>
-      <td>Not-in-family</td>
-      <td>Asian-Pac-Islander</td>
-      <td>Female</td>
-      <td>40</td>
-      <td>Laos</td>
-=======
-      <th>10954</th>
-      <td>33</td>
-      <td>Private</td>
-      <td>295591</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Farming-fishing</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>Mexico</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-<<<<<<< HEAD
-      <th>41933</th>
-      <td>42</td>
-      <td>Private</td>
-      <td>144995</td>
-=======
-      <th>11456</th>
-      <td>50</td>
-      <td>Private</td>
-      <td>193081</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Other-service</td>
-      <td>Not-in-family</td>
-<<<<<<< HEAD
-      <td>White</td>
-      <td>Male</td>
-      <td>25</td>
-      <td>United-States</td>
-=======
-      <td>Black</td>
-      <td>Female</td>
-      <td>40</td>
-      <td>Haiti</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>11677</th>
-      <td>47</td>
-      <td>Private</td>
-      <td>235431</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Sales</td>
-      <td>Unmarried</td>
-      <td>Black</td>
-      <td>Female</td>
-      <td>40</td>
-      <td>Haiti</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-<<<<<<< HEAD
-      <th>42224</th>
-      <td>19</td>
-=======
-      <th>13568</th>
-      <td>51</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>Private</td>
-      <td>186299</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Machine-op-inspct</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Male</td>
-<<<<<<< HEAD
-      <td>36</td>
-      <td>Hong</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>42782</th>
-      <td>52</td>
-      <td>Private</td>
-      <td>370552</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Machine-op-inspct</td>
-      <td>Husband</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>El-Salvador</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>42887</th>
-      <td>54</td>
-      <td>Private</td>
-      <td>175262</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Craft-repair</td>
-      <td>Husband</td>
-      <td>Asian-Pac-Islander</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>China</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>43433</th>
-      <td>66</td>
-      <td>Private</td>
-      <td>236879</td>
-      <td>Preschool</td>
-      <td>Widowed</td>
-      <td>Priv-house-serv</td>
-      <td>Other-relative</td>
-      <td>White</td>
-      <td>Female</td>
-      <td>40</td>
-      <td>Guatemala</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>43520</th>
-      <td>34</td>
-      <td>Local-gov</td>
-      <td>144182</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Adm-clerical</td>
-      <td>Own-child</td>
-      <td>Black</td>
-      <td>Female</td>
-      <td>25</td>
-=======
-      <td>30</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>United-States</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-<<<<<<< HEAD
-      <th>44676</th>
-      <td>36</td>
-      <td>Private</td>
-      <td>252231</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Machine-op-inspct</td>
-      <td>Not-in-family</td>
-      <td>Black</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>Puerto-Rico</td>
-=======
-      <th>13582</th>
-      <td>43</td>
-      <td>Self-emp-not-inc</td>
-      <td>245056</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Transport-moving</td>
-      <td>Husband</td>
-      <td>Black</td>
-      <td>Male</td>
-      <td>40</td>
-      <td>Haiti</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>14153</th>
-      <td>21</td>
-      <td>Private</td>
-      <td>243368</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Farming-fishing</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Male</td>
-<<<<<<< HEAD
-      <td>24</td>
-      <td>United-States</td>
-=======
-      <td>50</td>
-      <td>Mexico</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>15513</th>
-      <td>35</td>
-      <td>Private</td>
-      <td>290498</td>
-      <td>Preschool</td>
-      <td>Married-civ-spouse</td>
-      <td>Craft-repair</td>
-      <td>Husband</td>
-      <td>White</td>
-      <td>Male</td>
-<<<<<<< HEAD
-      <td>40</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>1672</td>
-=======
-      <td>38</td>
-      <td>Mexico</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-    </tr>
-    <tr>
-      <th>15654</th>
-      <td>60</td>
-      <td>Private</td>
-      <td>225894</td>
-      <td>Preschool</td>
-      <td>Widowed</td>
-      <td>Prof-speciality</td>
-      <td>Not-in-family</td>
-      <td>White</td>
-      <td>Female</td>
-<<<<<<< HEAD
-      <td>20</td>
-      <td>United-States</td>
-=======
-      <td>40</td>
-      <td>Guatemala</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>&lt;=50K</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>15964</th>
-      <td>61</td>
-      <td>Private</td>
-      <td>194804</td>
-      <td>Preschool</td>
-      <td>Separated</td>
-      <td>Transport-moving</td>
-      <td>Not-in-family</td>
-      <td>Black</td>
-      <td>Male</td>
-<<<<<<< HEAD
-      <td>75</td>
-      <td>Dominican-Republic</td>
-      <td>&lt;=50K</td>
-      <td>0</td>
-=======
-      <td>40</td>
-      <td>United-States</td>
-      <td>&gt;50K</td>
-      <td>-14344</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-    </tr>
-    <tr>
-      <th>16505</th>
-      <td>53</td>
-      <td>Local-gov</td>
-      <td>140359</td>
-      <td>Preschool</td>
-      <td>Never-married</td>
-      <td>Machine-op-inspct</td>
-      <td>Not-in-family</td>
-<<<<<<< HEAD
-=======
       <td>White</td>
       <td>Female</td>
       <td>35</td>
@@ -4458,7 +2680,6 @@ df.loc[df['education'] == 'Preschool']
       <td>Divorced</td>
       <td>Other-service</td>
       <td>Not-in-family</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
       <td>Other</td>
       <td>Male</td>
       <td>72</td>
@@ -4472,43 +2693,14 @@ df.loc[df['education'] == 'Preschool']
 
 
 
-<<<<<<< HEAD
 People with only a pre-school education don't seem to have any obvious trends. It is definitely possible for for someone in the United States to never go to school as a kid/teenager (I looked it up), so this seems entirely possible and I will keep them in the dataset.
-=======
-People with only a pre-school education don't seem to have any obvious trends. It is definitely possible though for someone to never go to school as a kid/teenager (I looked it up), so this seems possible and I will keep them in the dataset.
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 ## Hours-per-week
 
 
 ```python
 # set a grey background.
-<<<<<<< HEAD
 sns.set(style = 'darkgrid')
-=======
-sns.set(style="darkgrid")
-
-# Set plot layout.
-fig, ax = plt.subplots(figsize=(12, 8))
-
-# Make indicator for "income" plot.
-mask = df["income"] == "<=50K"
-
-# Split data by indicator.
-ax = sns.distplot(df[mask]["hours_per_week"], label='<=50K')
-ax = sns.distplot(df[~mask]["hours_per_week"],label='>=50K')
-
-# Add legend.
-ax.legend()
-```
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\seaborn\distributions.py:2557: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `histplot` (an axes-level function for histograms).
-      warnings.warn(msg, FutureWarning)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\seaborn\distributions.py:2557: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `histplot` (an axes-level function for histograms).
-      warnings.warn(msg, FutureWarning)
-    
-
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 # Set plot layout.
 fig, ax = plt.subplots(figsize = (12, 8))
@@ -4516,101 +2708,48 @@ fig, ax = plt.subplots(figsize = (12, 8))
 # Make indicator for "income" plot.
 mask = df['income'] == '<=50K'
 
-<<<<<<< HEAD
 # Split data by indicator.
 ax = sns.distplot(df[mask]['hours_per_week'], label = '<=50K')
 ax = sns.distplot(df[~mask]['hours_per_week'],label = '>50K')
-=======
-    <matplotlib.legend.Legend at 0x224a25b9148>
-
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 # Add legend.
 ax.legend();
 ```
 
 
-<<<<<<< HEAD
     
 ![png](output_92_0.png)
     
 
 
 Conclusion: Most people seem to work a standard 40 hour work week. People who work less than 40 hours per week typically make <=50K, while people who work more than 40 hours per week typically make >50K.
-=======
-![png](output_89_2.png)
-
-
-#### Interpretation:
-Most people seem to work a standard 40 hour work week. People who work less than 40 hours per week typically make less than 50,000, while people who work more than 40 hours per week make more than 50,000.
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 ```python
 # set a grey background.
-<<<<<<< HEAD
 sns.set(style = 'darkgrid')
 
 # Display box and whisker plots.
 df['hours_per_week'].plot(kind = 'box')
-=======
-sns.set(style="darkgrid")
-
-# Display box and whisker plots.
-df['hours_per_week'].plot(kind='box')
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 # Display plot.
 plt.show()
 ```
 
 
-<<<<<<< HEAD
     
 ![png](output_94_0.png)
     
 
 
 Conclusion: There are a lot's of outliers for "hours_per_week", but that is probably because the vast majority of people work a 40 hour workweek.
-=======
-![png](output_91_0.png)
-
-
-#### Interpretation:
-Lot's of outliers for hours per week, but that is probably because the vast majority of people work a 40 hour workweek.
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 ## Capital_diff
 
 
 ```python
 # set a grey background.
-<<<<<<< HEAD
 sns.set(style = 'darkgrid')
-=======
-sns.set(style="darkgrid")
-
-# Set plot layout.
-fig, ax = plt.subplots(figsize=(12, 8))
-
-# Make indicator for "income" plot.
-mask = df["income"] == "<=50K"
-
-# Split data by indicator.
-ax = sns.distplot(df[mask]["capital_diff"], label='<=50K')
-ax = sns.distplot(df[~mask]["capital_diff"],label='>=50K')
-
-# Add legend.
-ax.legend()
-```
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\seaborn\distributions.py:2557: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `histplot` (an axes-level function for histograms).
-      warnings.warn(msg, FutureWarning)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\seaborn\distributions.py:2557: FutureWarning: `distplot` is a deprecated function and will be removed in a future version. Please adapt your code to use either `displot` (a figure-level function with similar flexibility) or `histplot` (an axes-level function for histograms).
-      warnings.warn(msg, FutureWarning)
-    
-
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 # Set plot layout.
 fig, ax = plt.subplots(figsize = (12, 8))
@@ -4618,69 +2757,41 @@ fig, ax = plt.subplots(figsize = (12, 8))
 # Make indicator for "income" plot.
 mask = df['income'] == '<=50K'
 
-<<<<<<< HEAD
 # Split data by indicator.
 ax = sns.distplot(df[mask]['capital_diff'], label = '<=50K')
 ax = sns.distplot(df[~mask]['capital_diff'],label = '>50K')
-=======
-    <matplotlib.legend.Legend at 0x224a1195b48>
-
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 # Add legend.
 ax.legend();
 ```
 
 
-<<<<<<< HEAD
     
 ![png](output_97_0.png)
     
 
 
 Conclusion: If people had a change in capital gain, those making <=50K were more likely to have lost money, and those making >50K were more likely to have earned money.
-=======
-![png](output_94_2.png)
-
-
-#### Interpretation:
-If people had a change in capital gain, those making less than 50,000 per year were more likely to have lost money, and those making more than 50,000 per year were more likely to have earned money.
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 ```python
 # set a grey background.
-<<<<<<< HEAD
 sns.set(style = 'darkgrid')
 
 # Display box and whisker plots.
 df['capital_diff'].plot(kind = 'box')
-=======
-sns.set(style="darkgrid")
-
-# Display box and whisker plots.
-df['capital_diff'].plot(kind='box')
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 # Display plot.
 plt.show()
 ```
 
 
-<<<<<<< HEAD
     
 ![png](output_99_0.png)
     
 
 
 Conclusion: Most people did not see any capital gain/loss. Therefore, any change in capital is an outlier.
-=======
-![png](output_96_0.png)
-
-
-#### Interpretation:
-Most people did not see any capital gain/loss. Therefore, any change in capital is an outlier.
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 ## Scaling continuous variables
 If continuous variable are on wildly different scales, the machine learning algorithm may run into problems. I'm going to see whether this is the case for my 3 continuous predictors.
@@ -4688,49 +2799,29 @@ If continuous variable are on wildly different scales, the machine learning algo
 
 ```python
 # set a grey background.
-<<<<<<< HEAD
 sns.set(style = 'darkgrid')
-=======
-sns.set(style="darkgrid")
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 # Set plot layout.
 fig, axs = plt.subplots(1, 3, figsize=(15, 5))
 
 # Plot continuous predictors side-by-side.
-<<<<<<< HEAD
 sns.histplot(data = df, x = 'age', kde = True, color = 'skyblue', ax = axs[0])
 sns.histplot(data = df, x = 'capital_diff', kde = True, color = 'gold', ax = axs[1])
 sns.histplot(data = df, x = 'hours_per_week', kde = True, color = 'teal', ax = axs[2])
-=======
-sns.histplot(data=df, x="age", kde=True, color="skyblue", ax=axs[0])
-sns.histplot(data=df, x="capital_diff", kde=True, color="gold", ax=axs[1])
-sns.histplot(data=df, x="hours_per_week", kde=True, color="teal", ax=axs[2])
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 # Display plot.
 plt.show()
 ```
 
 
-<<<<<<< HEAD
     
 ![png](output_102_0.png)
     
 
-=======
-![png](output_99_0.png)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 Conclusion: The continuous variable do not exactly fall within the same range. Standardisation will fix that.
 
-#### Interpretation:
-Continuous variable do not exactly fall within the same range. Standardisation will fix that.
 
-<<<<<<< HEAD
-=======
-
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```python
 # List of variables I want to standardise.
 col_names = ['age', 'capital_diff', 'hours_per_week']
@@ -4816,45 +2907,28 @@ scaled_features.head()
 
 Now the continuous predictors appear to be on a standardised scale. I'll plot them again to see.
 
-<<<<<<< HEAD
 
 ```python
 # set a grey background.
 sns.set(style = 'darkgrid')
 
-=======
-```python
-# set a grey background.
-sns.set(style = "darkgrid")
-
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 # Set plot layout.
 fig, axs = plt.subplots(1, 3, figsize = (15, 5))
 
 # Plot continuous predictors side-by-side.
-<<<<<<< HEAD
 sns.histplot(data = scaled_features, x = 'age', kde = True, color = 'skyblue', ax = axs[0])
 sns.histplot(data = scaled_features, x = 'capital_diff', kde = True, color = 'gold', ax = axs[1])
 sns.histplot(data = scaled_features, x = 'hours_per_week', kde = True, color = 'teal', ax = axs[2])
-=======
-sns.histplot(data = scaled_features, x = "age", kde = True, color = "skyblue", ax = axs[0])
-sns.histplot(data = scaled_features, x = "capital_diff", kde = True, color = "gold", ax = axs[1])
-sns.histplot(data = scaled_features, x = "hours_per_week", kde = True, color = "teal", ax = axs[2])
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 # Display plot.
 plt.show()
 ```
 
 
-<<<<<<< HEAD
     
 ![png](output_106_0.png)
     
 
-=======
-![png](output_102_0.png)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 They look standardised now, so I just need to replace the standardised values with the original values in the dataframe.
 
@@ -5009,69 +3083,46 @@ df['fnlwgt'].nunique()
 
 
 
-<<<<<<< HEAD
 Conclusion: With so many unique labels, I'm not convinced they will be useful for machine learning, so I will drop this variable.
-=======
-Conclusion: So many unique labels, I'm not convinced they will be useful for learning. They should be dropped.
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 ```python
 # Drop "fnlwgt" from dataframe.
 df = df.drop(columns = ['fnlwgt'])
 ```
-<<<<<<< HEAD
 
 # Final Data Tweaks
 
 ## Dummy Coding
 Categorical variables need to be numerically coded for most machine-learning algorithms. However, simply giving a unique value to each label of a predictor will imply a rank to each instance (which is not the case for any of these predictors). To get around that, each predictor will be given as many columns as instances, and will be designated 1 if that observation is an instance of it, and 0 otherwise. First, I want to see which predictors actually are categorical.
-=======
-
-### Dummy Coding
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 ```python
 # Make list displaying whether a column is continuous or object-based.
 s = (df.dtypes == 'object')
 
-<<<<<<< HEAD
 # Drop income, since I want to save labels with a label encoder.
 s = s.drop(['income'])
 
-=======
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 # Make list of column names with object instances.
 object_cols = list(s[s].index)
 
 # Print names of all columns with categorical instances.
-<<<<<<< HEAD
 print('Categorical variables:', '\n')
-=======
-print("Categorical variables:", "\n")
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 print(object_cols)
 ```
 
     Categorical variables: 
     
-<<<<<<< HEAD
     ['workclass', 'education', 'marital_status', 'occupation', 'relationship', 'race', 'gender', 'native_country']
     
 
 Each of these variables needs to be dummy coded.
 
-=======
-    ['workclass', 'education', 'marital_status', 'occupation', 'relationship', 'race', 'gender', 'native_country', 'income']
-    
-
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 ```python
 # Dummy code categorical predictors. 
 df = pd.concat([df, pd.get_dummies(data = df, columns = list(s[s].index), drop_first = True)], axis = 1)
-<<<<<<< HEAD
 ```
 
 Now, I can remove the none-dummy coded categorical predictors.
@@ -5080,17 +3131,11 @@ Now, I can remove the none-dummy coded categorical predictors.
 ```python
 # Remove non-dummy coded object columns.
 df.drop(object_cols, axis = 1, inplace = True)
-=======
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
 
 
 ```python
-<<<<<<< HEAD
 # Recheck dataframe.
-=======
-# Glimpse data.
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 df.head()
 ```
 
@@ -5117,18 +3162,11 @@ df.head()
       <th></th>
       <th>age</th>
       <th>hours_per_week</th>
-<<<<<<< HEAD
-=======
-      <th>native_country</th>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
       <th>income</th>
       <th>capital_diff</th>
       <th>age</th>
       <th>hours_per_week</th>
-<<<<<<< HEAD
       <th>income</th>
-=======
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
       <th>capital_diff</th>
       <th>workclass_Local-gov</th>
       <th>workclass_Never-worked</th>
@@ -5229,19 +3267,12 @@ df.head()
       <th>0</th>
       <td>-0.995129</td>
       <td>-0.034087</td>
-<<<<<<< HEAD
-=======
-      <td>United-States</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
       <td>&lt;=50K</td>
       <td>0.132642</td>
       <td>-0.995129</td>
       <td>-0.034087</td>
-<<<<<<< HEAD
       <td>&lt;=50K</td>
       <td>0.132642</td>
-=======
-      <td>0.132642</td>
       <td>0</td>
       <td>0</td>
       <td>1</td>
@@ -5299,238 +3330,6 @@ df.head()
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>-0.046942</td>
-      <td>Private</td>
-      <td>HS-grad</td>
-      <td>Married-civ-spouse</td>
-      <td>Farming-fishing</td>
-      <td>Husband</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>0.772930</td>
-      <td>United-States</td>
-      <td>&lt;=50K</td>
-      <td>0.132642</td>
-      <td>-0.046942</td>
-      <td>0.772930</td>
-      <td>0.132642</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
-=======
-      <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
-=======
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
-=======
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>-0.776316</td>
-      <td>Local-gov</td>
-      <td>Assoc-acdm</td>
-      <td>Married-civ-spouse</td>
-      <td>Protective-serv</td>
-      <td>Husband</td>
-      <td>White</td>
-      <td>Male</td>
-      <td>-0.034087</td>
-      <td>United-States</td>
-      <td>&gt;50K</td>
-      <td>0.132642</td>
-      <td>-0.776316</td>
-      <td>-0.034087</td>
-      <td>0.132642</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
-=======
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -5581,47 +3380,12 @@ df.head()
       <td>0</td>
       <td>1</td>
       <td>0</td>
-=======
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
-<<<<<<< HEAD
-=======
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -5644,29 +3408,6 @@ df.head()
       <td>0</td>
       <td>0</td>
       <td>1</td>
-<<<<<<< HEAD
-=======
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>0.390683</td>
-      <td>Private</td>
-      <td>Some-college</td>
-      <td>Married-civ-spouse</td>
-      <td>Machine-op-inspct</td>
-      <td>Husband</td>
-      <td>Black</td>
-      <td>Male</td>
-      <td>-0.034087</td>
-      <td>United-States</td>
-      <td>&gt;50K</td>
-      <td>-0.895787</td>
-      <td>0.390683</td>
-      <td>-0.034087</td>
-      <td>-0.895787</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -5686,35 +3427,6 @@ df.head()
       <td>0</td>
       <td>0</td>
       <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
@@ -5756,334 +3468,6 @@ df.head()
       <td>1</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>-1.505691</td>
-      <td>Private</td>
-      <td>Some-college</td>
-      <td>Never-married</td>
-      <td>Prof-speciality</td>
-      <td>Own-child</td>
-      <td>White</td>
-      <td>Female</td>
-      <td>-0.841104</td>
-      <td>United-States</td>
-      <td>&lt;=50K</td>
-      <td>0.132642</td>
-      <td>-1.505691</td>
-      <td>-0.841104</td>
-      <td>0.132642</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
-      <td>0</td>
-      <td>0</td>
-=======
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
-=======
-    </tr>
-  </tbody>
-</table>
-</div>
-
-
-
-
-```python
-# Remove non-dummy coded object columns.
-df.drop(object_cols, axis = 1, inplace = True)
-```
-
-
-```python
-df.head()
-```
-
-
-
-
-<div>
-<style scoped>
-    .dataframe tbody tr th:only-of-type {
-        vertical-align: middle;
-    }
-
-    .dataframe tbody tr th {
-        vertical-align: top;
-    }
-
-    .dataframe thead th {
-        text-align: right;
-    }
-</style>
-<table border="1" class="dataframe">
-  <thead>
-    <tr style="text-align: right;">
-      <th></th>
-      <th>age</th>
-      <th>hours_per_week</th>
-      <th>capital_diff</th>
-      <th>age</th>
-      <th>hours_per_week</th>
-      <th>capital_diff</th>
-      <th>workclass_Local-gov</th>
-      <th>workclass_Never-worked</th>
-      <th>workclass_Private</th>
-      <th>workclass_Self-emp-inc</th>
-      <th>workclass_Self-emp-not-inc</th>
-      <th>workclass_State-gov</th>
-      <th>workclass_Without-pay</th>
-      <th>education_11th</th>
-      <th>education_12th</th>
-      <th>education_1st-4th</th>
-      <th>education_5th-6th</th>
-      <th>education_7th-8th</th>
-      <th>education_9th</th>
-      <th>education_Assoc-acdm</th>
-      <th>education_Assoc-voc</th>
-      <th>education_Bachelors</th>
-      <th>education_Doctorate</th>
-      <th>education_HS-grad</th>
-      <th>education_Masters</th>
-      <th>education_Preschool</th>
-      <th>education_Prof-school</th>
-      <th>education_Some-college</th>
-      <th>marital_status_Married-AF-spouse</th>
-      <th>marital_status_Married-civ-spouse</th>
-      <th>marital_status_Married-spouse-absent</th>
-      <th>marital_status_Never-married</th>
-      <th>marital_status_Separated</th>
-      <th>marital_status_Widowed</th>
-      <th>occupation_Armed-Forces</th>
-      <th>occupation_Craft-repair</th>
-      <th>occupation_Exec-managerial</th>
-      <th>occupation_Farming-fishing</th>
-      <th>occupation_Handlers-cleaners</th>
-      <th>occupation_Machine-op-inspct</th>
-      <th>occupation_Other-service</th>
-      <th>occupation_Priv-house-serv</th>
-      <th>occupation_Prof-speciality</th>
-      <th>occupation_Prof-specialty</th>
-      <th>occupation_Protective-serv</th>
-      <th>occupation_Sales</th>
-      <th>occupation_Tech-support</th>
-      <th>occupation_Transport-moving</th>
-      <th>relationship_Not-in-family</th>
-      <th>relationship_Other-relative</th>
-      <th>relationship_Own-child</th>
-      <th>relationship_Unmarried</th>
-      <th>relationship_Wife</th>
-      <th>race_Asian-Pac-Islander</th>
-      <th>race_Black</th>
-      <th>race_Other</th>
-      <th>race_White</th>
-      <th>gender_Male</th>
-      <th>native_country_Canada</th>
-      <th>native_country_China</th>
-      <th>native_country_Columbia</th>
-      <th>native_country_Cuba</th>
-      <th>native_country_Dominican-Republic</th>
-      <th>native_country_Ecuador</th>
-      <th>native_country_El-Salvador</th>
-      <th>native_country_England</th>
-      <th>native_country_France</th>
-      <th>native_country_Germany</th>
-      <th>native_country_Greece</th>
-      <th>native_country_Guatemala</th>
-      <th>native_country_Haiti</th>
-      <th>native_country_Holand-Netherlands</th>
-      <th>native_country_Honduras</th>
-      <th>native_country_Hong</th>
-      <th>native_country_Hungary</th>
-      <th>native_country_India</th>
-      <th>native_country_Iran</th>
-      <th>native_country_Ireland</th>
-      <th>native_country_Italy</th>
-      <th>native_country_Jamaica</th>
-      <th>native_country_Japan</th>
-      <th>native_country_Laos</th>
-      <th>native_country_Mexico</th>
-      <th>native_country_Nicaragua</th>
-      <th>native_country_Outlying-US(Guam-USVI-etc)</th>
-      <th>native_country_Peru</th>
-      <th>native_country_Philippines</th>
-      <th>native_country_Poland</th>
-      <th>native_country_Portugal</th>
-      <th>native_country_Puerto-Rico</th>
-      <th>native_country_Scotland</th>
-      <th>native_country_South</th>
-      <th>native_country_Taiwan</th>
-      <th>native_country_Thailand</th>
-      <th>native_country_Trinadad&amp;Tobago</th>
-      <th>native_country_United-States</th>
-      <th>native_country_Vietnam</th>
-      <th>native_country_Yugoslavia</th>
-      <th>income_&gt;50K</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <th>0</th>
-      <td>-0.995129</td>
-      <td>-0.034087</td>
-      <td>0.132642</td>
-      <td>-0.995129</td>
-      <td>-0.034087</td>
-      <td>0.132642</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
-=======
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
-=======
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
     </tr>
     <tr>
       <th>2</th>
@@ -6095,183 +3479,6 @@ df.head()
       <td>-0.034087</td>
       <td>&gt;50K</td>
       <td>0.132642</td>
-=======
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
-=======
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-    </tr>
-    <tr>
-      <th>1</th>
-      <td>-0.046942</td>
-      <td>0.772930</td>
-      <td>0.132642</td>
-      <td>-0.046942</td>
-      <td>0.772930</td>
-      <td>0.132642</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
-=======
-      <td>1</td>
-      <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
-=======
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
-=======
-    </tr>
-    <tr>
-      <th>2</th>
-      <td>-0.776316</td>
-      <td>-0.034087</td>
-      <td>0.132642</td>
-      <td>-0.776316</td>
-      <td>-0.034087</td>
-      <td>0.132642</td>
       <td>1</td>
       <td>0</td>
       <td>0</td>
@@ -6305,7 +3512,6 @@ df.head()
       <td>0</td>
       <td>0</td>
       <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -6327,7 +3533,44 @@ df.head()
       <td>1</td>
       <td>0</td>
       <td>0</td>
-<<<<<<< HEAD
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
     </tr>
     <tr>
       <th>3</th>
@@ -6339,8 +3582,9 @@ df.head()
       <td>-0.034087</td>
       <td>&gt;50K</td>
       <td>-0.895787</td>
-=======
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -6350,19 +3594,43 @@ df.head()
       <td>0</td>
       <td>0</td>
       <td>0</td>
-<<<<<<< HEAD
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-=======
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>1</td>
@@ -6389,61 +3657,6 @@ df.head()
       <td>0</td>
       <td>0</td>
       <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
-=======
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>3</th>
-      <td>0.390683</td>
-      <td>-0.034087</td>
-      <td>-0.895787</td>
-      <td>0.390683</td>
-      <td>-0.034087</td>
-      <td>-0.895787</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
-=======
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -6461,7 +3674,6 @@ df.head()
       <td>1</td>
       <td>0</td>
       <td>0</td>
-<<<<<<< HEAD
     </tr>
     <tr>
       <th>4</th>
@@ -6473,65 +3685,6 @@ df.head()
       <td>-0.841104</td>
       <td>&lt;=50K</td>
       <td>0.132642</td>
-=======
-      <td>1</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
-      <td>1</td>
-=======
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
-=======
-      <td>1</td>
-    </tr>
-    <tr>
-      <th>4</th>
-      <td>-1.505691</td>
-      <td>-0.841104</td>
-      <td>0.132642</td>
-      <td>-1.505691</td>
-      <td>-0.841104</td>
-      <td>0.132642</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
       <td>0</td>
       <td>0</td>
       <td>1</td>
@@ -6542,16 +3695,26 @@ df.head()
       <td>0</td>
       <td>0</td>
       <td>0</td>
-<<<<<<< HEAD
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>1</td>
-=======
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>1</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -6566,40 +3729,13 @@ df.head()
       <td>0</td>
       <td>0</td>
       <td>0</td>
-<<<<<<< HEAD
-=======
-      <td>0</td>
+      <td>1</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>1</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
-=======
-      <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-      <td>0</td>
-<<<<<<< HEAD
-=======
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -6624,7 +3760,13 @@ df.head()
       <td>0</td>
       <td>0</td>
       <td>0</td>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
+      <td>0</td>
       <td>0</td>
       <td>0</td>
       <td>0</td>
@@ -6633,7 +3775,6 @@ df.head()
       <td>0</td>
       <td>0</td>
       <td>1</td>
-      <td>0</td>
       <td>0</td>
       <td>0</td>
     </tr>
@@ -6643,31 +3784,22 @@ df.head()
 
 
 
-<<<<<<< HEAD
 Now there are far more columns than before, but they are properly coded.
 
 ## Check For Duplicate Columns
 When I change a lot of predictors in an analysis, mistakes can sometimes be made. I want to make sure no variables have been duplicated by mistake.
-=======
-### Check For Duplicate Columns
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 ```python
 # Get list of duplicate columns
 duplicateColumnNames = getDuplicateColumns(df)
-<<<<<<< HEAD
 print('Duplicate Columns are as follows:')
-=======
-print('Duplicate Columns are as follows')
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 # Loop that prints contents of duplicate list.
 for col in duplicateColumnNames:
     print('Column name : ', col)
 ```
 
-<<<<<<< HEAD
     Duplicate Columns are as follows:
     Column name :  age
     Column name :  capital_diff
@@ -6677,14 +3809,6 @@ for col in duplicateColumnNames:
 
 Somewhere along the way, these 4 predictors were duplicated. This would be redundent information for the machine-learning algorithm, so I will remove them.
 
-=======
-    Duplicate Columns are as follows
-    Column name :  hours_per_week
-    Column name :  age
-    Column name :  capital_diff
-    
-
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 ```python
 # Remove duplicate columns.
@@ -6695,18 +3819,13 @@ df = df.loc[:, ~df.columns.duplicated()]
 ```python
 # Get list of duplicate columns
 duplicateColumnNames = getDuplicateColumns(df)
-<<<<<<< HEAD
 print('Duplicate Columns are as follows:')
-=======
-print('Duplicate Columns are as follows')
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 # Loop that prints contents of duplicate list.
 for col in duplicateColumnNames:
     print('Column name : ', col)
 ```
 
-<<<<<<< HEAD
     Duplicate Columns are as follows:
     
 
@@ -6756,29 +3875,6 @@ X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_s
 
 # Get validation for hyperparameter tuning.
 X_train, X_val, y_train, y_val = model_selection.train_test_split(X_train, y_train, test_size = 0.25, random_state = 1,stratify = y_train)
-=======
-    Duplicate Columns are as follows
-    
-
-# Machine Learning Model
-
-
-```python
-# Response variable.
-y = df['income_>50K']
-
-# Predictor variables.
-X = df.drop(columns = "income_>50K")
-```
-
-
-```python
-# Split into train/test sets.
-X_train, X_test, y_train, y_test = model_selection.train_test_split(X, y, test_size = 0.2, random_state = 42,stratify=y)
-
-# Get validation for hyperparameter tuning.
-X_train, X_val, y_train, y_val = model_selection.train_test_split(X_train, y_train, test_size = 0.25, random_state = 1,stratify=y_train)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 # Print size of training, validation, and testing set for verification.
 print('X_Train Shape =', round(X_train.shape[0]/48842 * 100),'%')
@@ -6793,7 +3889,6 @@ print('') # Add space.
     
     
 
-<<<<<<< HEAD
 ## Testing Different Classifiers
 I'll first test a dummy classifier, which randomly guesses which class each observation belongs to. This will be a soft benchmark that all machine learning classifiers I test must pass. Then I will test a series of different classes of classifier to get a rough benchmark for each of those. From there, I will pick the best one and further tune its parameters. Of note, the function I wrote to test each classifier tests against the validation set, and not the test set. That's because I will further assess the winning classifier and so I don't want to double dip. 
 
@@ -7149,404 +4244,10 @@ xgb_class = xgb.XGBClassifier(random_state = 42,
 # Fit xgboost model.
 xgb_class.fit(X_train, y_train, early_stopping_rounds = 10, eval_set = [(X_val, y_val)], verbose = False)
 ```
-=======
-## Note: Need to check that "income" is balanced among classes for the train/val/test sets.
-
-### Testing Different Classifiers
-I'll first test a dummy classifier. This classifier randomly guesses which class each observation belongs to. This will be a soft benchmark that all machine learning classifiers I test must pass. Then I will test a series of different classes of classifier to get a rough benchmark. From there, I will pick the best one and further test it.
 
 
-```python
-# Loop through models.
-for model in [DummyClassifier,
-              LogisticRegression,
-              DecisionTreeClassifier,
-              KNeighborsClassifier,
-              GaussianNB,
-              RandomForestClassifier,
-              xgboost.XGBClassifier]:
-    
-    # Need to suppress xgboost warning messages.
-    if model == "xgboost.XGBClassifier":
-        
-        cls = model(verbosity = 0)
-        
-        # Use 10-fold cross-validation.
-        kfold = model_selection.KFold(n_splits = 10)
-    
-        # Get indexed model score.
-        s = model_selection.cross_val_score(cls, X_train, y_train, scoring = "roc_auc", cv = kfold)
-    
-        # Print indexed model accuracy and standard deviation.
-        print(f"{model.__name__:22} AUC: " f"{s.mean():.3f} STD: {s.std():.2f}")
-     
-    # If not xgboost, no warning message supression needed.
-    else:
-            
-        # Update cls with indexed model.
-        cls = model()
-    
-        # Use 10-fold cross-validation.
-        kfold = model_selection.KFold(n_splits = 10)
-    
-        # Get indexed model score.
-        s = model_selection.cross_val_score(cls, X_train, y_train, scoring = "roc_auc", cv = kfold)
-    
-        # Print indexed model accuracy and standard deviation.
-        print(f"{model.__name__:22} AUC: " f"{s.mean():.3f} STD: {s.std():.2f}")
-    
-```
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\dummy.py:132: FutureWarning: The default value of strategy will change from stratified to prior in 0.24.
-      "stratified to prior in 0.24.", FutureWarning)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\dummy.py:132: FutureWarning: The default value of strategy will change from stratified to prior in 0.24.
-      "stratified to prior in 0.24.", FutureWarning)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\dummy.py:132: FutureWarning: The default value of strategy will change from stratified to prior in 0.24.
-      "stratified to prior in 0.24.", FutureWarning)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\dummy.py:132: FutureWarning: The default value of strategy will change from stratified to prior in 0.24.
-      "stratified to prior in 0.24.", FutureWarning)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\dummy.py:132: FutureWarning: The default value of strategy will change from stratified to prior in 0.24.
-      "stratified to prior in 0.24.", FutureWarning)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\dummy.py:132: FutureWarning: The default value of strategy will change from stratified to prior in 0.24.
-      "stratified to prior in 0.24.", FutureWarning)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\dummy.py:132: FutureWarning: The default value of strategy will change from stratified to prior in 0.24.
-      "stratified to prior in 0.24.", FutureWarning)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\dummy.py:132: FutureWarning: The default value of strategy will change from stratified to prior in 0.24.
-      "stratified to prior in 0.24.", FutureWarning)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\dummy.py:132: FutureWarning: The default value of strategy will change from stratified to prior in 0.24.
-      "stratified to prior in 0.24.", FutureWarning)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\dummy.py:132: FutureWarning: The default value of strategy will change from stratified to prior in 0.24.
-      "stratified to prior in 0.24.", FutureWarning)
-    
-
-    DummyClassifier        AUC: 0.498 STD: 0.01
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    
-
-    LogisticRegression     AUC: 0.899 STD: 0.01
-    DecisionTreeClassifier AUC: 0.766 STD: 0.01
-    KNeighborsClassifier   AUC: 0.853 STD: 0.01
-    GaussianNB             AUC: 0.796 STD: 0.02
-    RandomForestClassifier AUC: 0.888 STD: 0.01
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:33:17] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:33:20] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:33:24] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:33:27] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:33:30] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:33:34] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:33:37] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:33:40] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:33:43] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:33:46] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    XGBClassifier          AUC: 0.926 STD: 0.00
-    
-
-The xgboost algorithm has the highest overall accuracy. So I'll move forward with it. Before doing so, however, I will try model-stacking all tested models to see if it improves the overall accuracy.
-
-### Stacked Model
-Stacked models combine the outputs of a bunch of previously tested models in an attempt to improve fit. Here I'll take all of the previous model's outputs and see if that can achieve better results than the xgboost algorithm.
 
 
-```python
-# Stacked Models for simultanious stacking.
-clfs = [x() for x in [LogisticRegression,
-                      DecisionTreeClassifier,
-                      KNeighborsClassifier,
-                      GaussianNB,
-                      RandomForestClassifier,
-                      xgboost.XGBClassifier]]
-
-# Specify stacking classifier..
-stack = StackingClassifier(classifiers = clfs,meta_classifier = LogisticRegression())
-
-# Use 10-fold cross-validation.
-kfold = model_selection.KFold(n_splits = 10)
-
-# Get stacked model score.
-s = model_selection.cross_val_score(stack, X_train, y_train, scoring = "roc_auc", cv = kfold)
-
-# Print stacked model accuracy and standard deviation.
-print(f"{stack.__class__.__name__} " f"AUC: {s.mean():.3f} STD: {s.std():.2f}")
-```
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:33:57] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:35:19] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:36:42] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:38:04] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:39:26] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:40:48] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:42:11] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-
-    [13:43:33] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:44:54] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    
-
-<<<<<<< HEAD
     XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
                   colsample_bynode=1, colsample_bytree=0.3, eta=0.2, gamma=0,
                   gpu_id=-1, importance_type='gain', interaction_constraints='',
@@ -7614,117 +4315,7 @@ lc3_viz.poof();
 
 # Save learning curve plot.
 fig.savefig('images/LearningCurve.png', dpi = 300)
-=======
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\linear_model\_logistic.py:940: ConvergenceWarning: lbfgs failed to converge (status=1):
-    STOP: TOTAL NO. of ITERATIONS REACHED LIMIT.
-    
-    Increase the number of iterations (max_iter) or scale the data as shown in:
-        https://scikit-learn.org/stable/modules/preprocessing.html
-    Please also refer to the documentation for alternative solver options:
-        https://scikit-learn.org/stable/modules/linear_model.html#logistic-regression
-      extra_warning_msg=_LOGISTIC_SOLVER_CONVERGENCE_MSG)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [13:46:16] WARNING: C:/Users/Administrator/workspace/xgboost-win64_release_1.4.0/src/learner.cc:1095: Starting in XGBoost 1.3.0, the default evaluation metric used with the objective 'binary:logistic' was changed from 'error' to 'logloss'. Explicitly set eval_metric if you'd like to restore the old behavior.
-    StackingClassifier AUC: 0.855 STD: 0.01
-    
-
-### XGBoost Base Model
-
-
-```python
-# Change xgboost handle.
-import xgboost as xgb
-
-# Specify xgboost classifier.
-xgb_class = xgb.XGBClassifier(random_state = 42,verbosity = 0)
-
-# Fit xgboost model.
-xgb_class.fit(X_train, y_train, early_stopping_rounds = 10, eval_set = [(X_val, y_val)])
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-    [0]	validation_0-logloss:0.54588
-    [1]	validation_0-logloss:0.46412
-    [2]	validation_0-logloss:0.41226
-    [3]	validation_0-logloss:0.37883
-    [4]	validation_0-logloss:0.35550
-    [5]	validation_0-logloss:0.33887
-    [6]	validation_0-logloss:0.32686
-    [7]	validation_0-logloss:0.31843
-    [8]	validation_0-logloss:0.31237
-    [9]	validation_0-logloss:0.30739
-    [10]	validation_0-logloss:0.30349
-    [11]	validation_0-logloss:0.29953
-    [12]	validation_0-logloss:0.29767
-    [13]	validation_0-logloss:0.29497
-    [14]	validation_0-logloss:0.29261
-    [15]	validation_0-logloss:0.29137
-    [16]	validation_0-logloss:0.28903
-    [17]	validation_0-logloss:0.28645
-    [18]	validation_0-logloss:0.28577
-    [19]	validation_0-logloss:0.28367
-    [20]	validation_0-logloss:0.28305
-    [21]	validation_0-logloss:0.28211
-    [22]	validation_0-logloss:0.28159
-    [23]	validation_0-logloss:0.28056
-    [24]	validation_0-logloss:0.28027
-    [25]	validation_0-logloss:0.27937
-    [26]	validation_0-logloss:0.27904
-    [27]	validation_0-logloss:0.27896
-    [28]	validation_0-logloss:0.27820
-    [29]	validation_0-logloss:0.27809
-    [30]	validation_0-logloss:0.27722
-    [31]	validation_0-logloss:0.27647
-    [32]	validation_0-logloss:0.27632
-    [33]	validation_0-logloss:0.27570
-    [34]	validation_0-logloss:0.27534
-    [35]	validation_0-logloss:0.27552
-    [36]	validation_0-logloss:0.27530
-    [37]	validation_0-logloss:0.27535
-    [38]	validation_0-logloss:0.27522
-    [39]	validation_0-logloss:0.27526
-    [40]	validation_0-logloss:0.27527
-    [41]	validation_0-logloss:0.27521
-    [42]	validation_0-logloss:0.27515
-    [43]	validation_0-logloss:0.27502
-    [44]	validation_0-logloss:0.27482
-    [45]	validation_0-logloss:0.27484
-    [46]	validation_0-logloss:0.27483
-    [47]	validation_0-logloss:0.27457
-    [48]	validation_0-logloss:0.27495
-    [49]	validation_0-logloss:0.27492
-    [50]	validation_0-logloss:0.27459
-    [51]	validation_0-logloss:0.27466
-    [52]	validation_0-logloss:0.27452
-    [53]	validation_0-logloss:0.27445
-    [54]	validation_0-logloss:0.27461
-    [55]	validation_0-logloss:0.27444
-    [56]	validation_0-logloss:0.27444
-    [57]	validation_0-logloss:0.27446
-    [58]	validation_0-logloss:0.27445
-    [59]	validation_0-logloss:0.27425
-    [60]	validation_0-logloss:0.27434
-    [61]	validation_0-logloss:0.27434
-    [62]	validation_0-logloss:0.27434
-    [63]	validation_0-logloss:0.27418
-    [64]	validation_0-logloss:0.27433
-    [65]	validation_0-logloss:0.27431
-    [66]	validation_0-logloss:0.27437
-    [67]	validation_0-logloss:0.27453
-    [68]	validation_0-logloss:0.27485
-    [69]	validation_0-logloss:0.27474
-    [70]	validation_0-logloss:0.27485
-    [71]	validation_0-logloss:0.27491
-    [72]	validation_0-logloss:0.27490
-    [73]	validation_0-logloss:0.27492
-    
 
 
     
@@ -7732,20 +4323,7 @@ xgb_class.fit(X_train, y_train, early_stopping_rounds = 10, eval_set = [(X_val, 
     
 
 
-<<<<<<< HEAD
 Conclusion: First, it looks like collecting more data would lead to very mediocre improvements to the cross-validation score: it has essentially plateued. There is very little variability in the training score (the "cloud" around the line) so I know the model is not biased (i.e. no underfitting). There is some variability in the cross-validation score, indicating that the model may have some variance (i.e. some overfitting). Regularisation can sometimes be applied to reduce overfitting, but here I think this model looks decent.
-=======
-    XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
-                  colsample_bynode=1, colsample_bytree=1, gamma=0, gpu_id=-1,
-                  importance_type='gain', interaction_constraints='',
-                  learning_rate=0.300000012, max_delta_step=0, max_depth=6,
-                  min_child_weight=1, missing=nan, monotone_constraints='()',
-                  n_estimators=100, n_jobs=8, num_parallel_tree=1,
-                  objective='binary:logistic', random_state=42, reg_alpha=0,
-                  reg_lambda=1, scale_pos_weight=1, subsample=1,
-                  tree_method='exact', use_label_encoder=True,
-                  validate_parameters=1, verbosity=0)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 # Metrics And Classification Evaluation
 
@@ -7754,7 +4332,6 @@ The confusion matrix will give me a lot of important information related to accu
 
 
 ```python
-<<<<<<< HEAD
 # Set plot layout.
 fig, ax = plt.subplots(figsize = (6, 6))
 
@@ -7769,10 +4346,6 @@ cm_viz.poof();
 
 # Save confusion matrix plot.
 fig.savefig('images/ConfusionMatrix.png', dpi = 300)
-=======
-# Plot validation set accuracy.
-xgb_class.score(X_val, y_val)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
 
 
@@ -7783,10 +4356,6 @@ xgb_class.score(X_val, y_val)
 
 Conclusion: Since I defined <=50K as being the positive class, I will consider the bottom right corner to be true positives, and the top left corner to be true negatives.
 
-<<<<<<< HEAD
-=======
-    0.8742962432183438
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 ```python
 # Defining true positives (tp), false positives (fp), false negatives (fn), and true negatives (tn).
@@ -7801,59 +4370,19 @@ First, Let's see, overall, how well the classifier correctly predicts positive a
 
 ### Manual Calculation
 
-### XGBoost Grid Search
-I want to run a grid search, but as seen above, xgboost has a ton of parameters. In an ideal world, I could tune the model to every iteration of parameters, but here, it would take too long. THerefore I'm only going to focus on the main parameters.
-
-Here is a parameter dictionary with the parameters I want to tune:
-
 
 ```python
-<<<<<<< HEAD
 # Manually calculate accuracy.
 (tp + tn)/(tp + fp + fn + tn)
-=======
-# Parameter dictionary. I will update these based on the best parameters found during grid search.
-params = {
-    # Parameters:
-    'max_depth':6,
-    'min_child_weight': 1,
-    'eta':.3,
-    'subsample': 1,
-    'colsample_bytree': 1,
-    # Other parameters:
-    'objective':'binary:logistic',
-}
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
 
 
-```python
-# Tuning 'max_depth' and 'min_child_weight'.
 
-# Set first grid search model.
-xgb_grid1 = xgb.XGBClassifier()
 
-# Set parameter range for grid search.
-params = {"max_depth": np.arange(1, 9, 1),
-          "min_child_weight": np.arange(1, 9, 1)}
-
-# Fit training data to all parameter combinations.
-cv = model_selection.GridSearchCV(xgb_grid1, params, n_jobs = -1).fit(X_train, y_train)
-
-<<<<<<< HEAD
     0.8713276691575391
 
-=======
-# Print parameters that result in highest prediction accuracy.
-print(cv.best_params_)
-```
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
 
-<<<<<<< HEAD
 ### ScikitLearn Calculation
 
 
@@ -7863,16 +4392,6 @@ y_predict = xgb_class.predict(X_test)
 
 # Compute test set accuracy.
 accuracy_score(y_test, y_predict)
-=======
-    {'max_depth': 4, 'min_child_weight': 1}
-    
-
-
-```python
-# Update parameter list with gridsearch's best parameters.
-params['max_depth'] = 4
-params['min_child_weight'] = 2
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
 
 
@@ -7891,51 +4410,21 @@ Recall shows how many positive cases the classifier actually identified as posit
 
 
 ```python
-<<<<<<< HEAD
 # Manually calculate recall/sensitivity.
 tp/(tp + fn)
 ```
-=======
-# Start tuning 'subsample' and 'colsample_bytree'.
 
-# Set second grid search model.
-xgb_grid2 = xgb.XGBClassifier()
 
-# Set parameter range for grid search.
-params = {'subsample': np.arange(0.1, 0.9, 0.1),
-          'colsample_bytree': np.arange(0.1, 0.9, 0.1)}
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
-# Fit training data to all parameter combinations.
-cv = model_selection.GridSearchCV(xgb_grid1, params, n_jobs = -1).fit(X_train, y_train)
 
-# Print parameters that result in highest prediction accuracy.
-print(cv.best_params_)
-```
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-<<<<<<< HEAD
     0.9457677297806486
-=======
-    {'colsample_bytree': 0.30000000000000004, 'subsample': 0.8}
-    
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
-```python
-# Update parameter list with gridsearch's best parameters.
-params['subsample'] = 0.8
-params['colsample_bytree'] = 0.3
-```
 
 ### ScikitLearn Calculation
 
 
 ```python
-<<<<<<< HEAD
 # Make predictions on test set.
 y_predict = xgb_class.predict(X_test)
 
@@ -7956,31 +4445,8 @@ Conclusion: 95% of people making <=50K were correctly identified.
 Precision shows how many positive predictions were actually correct.
 
 ### Manual Calculation
-=======
-# Start tuning 'eta'.
 
-# Set second grid search model.
-xgb_grid3 = xgb.XGBClassifier()
 
-# Set parameter range for grid search.
-params = {'eta': [.3, .2, .1, .05, .01, .005]}
-
-# Fit training data to all parameter combinations.
-cv = model_selection.GridSearchCV(xgb_grid3, params, n_jobs = -1).fit(X_train, y_train)
-
-# Print parameters that result in highest prediction accuracy.
-print(cv.best_params_)
-```
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-
-    {'eta': 0.1}
-    
-
-<<<<<<< HEAD
 ```python
 # Manually calculate precision.
 tp/(tp + fp)
@@ -8002,12 +4468,6 @@ y_predict = xgb_class.predict(X_test)
 
 # Compute test set precision.
 precision_score(y_test, y_predict)
-=======
-
-```python
-# Update parameter list with gridsearch's best parameter.
-params['eta'] = 0.2
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
 
 
@@ -8026,168 +4486,31 @@ The F1 score is a combination of recall and precision scores. Importantly, one s
 
 
 ```python
-<<<<<<< HEAD
 # Manually calculate f1 score.
 (2 * (tp / (tp + fp)) * (tp / (tp + fn))) / ((tp / (tp + fp)) + (tp / (tp + fn)))
-=======
-# Change xgboost handle.
-import xgboost as xgb
-
-# Specify xgboost classifier.
-xgb_class = xgb.XGBClassifier(random_state = 42,verbosity = 0,
-                              eta = 0.2,
-                              ubsample= 0.8,
-                              colsample_bytree= 0.3,
-                              max_depth= 4,
-                              min_child_weight= 2)
-
-# Fit xgboost model.
-xgb_class.fit(X_train, y_train, early_stopping_rounds = 10, eval_set = [(X_val, y_val)])
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
 
-    [0]	validation_0-logloss:0.60916
-    [1]	validation_0-logloss:0.55462
-    [2]	validation_0-logloss:0.51226
-    [3]	validation_0-logloss:0.48061
-    [4]	validation_0-logloss:0.44908
-    [5]	validation_0-logloss:0.43041
-    [6]	validation_0-logloss:0.41937
-    [7]	validation_0-logloss:0.40224
-    [8]	validation_0-logloss:0.39096
-    [9]	validation_0-logloss:0.38291
-    [10]	validation_0-logloss:0.37685
-    [11]	validation_0-logloss:0.36975
-    [12]	validation_0-logloss:0.35998
-    [13]	validation_0-logloss:0.35247
-    [14]	validation_0-logloss:0.34861
-    [15]	validation_0-logloss:0.34505
-    [16]	validation_0-logloss:0.34183
-    [17]	validation_0-logloss:0.33903
-    [18]	validation_0-logloss:0.33417
-    [19]	validation_0-logloss:0.33280
-    [20]	validation_0-logloss:0.33061
-    [21]	validation_0-logloss:0.32928
-    [22]	validation_0-logloss:0.32737
-    [23]	validation_0-logloss:0.32396
-    [24]	validation_0-logloss:0.32253
-    [25]	validation_0-logloss:0.32025
-    [26]	validation_0-logloss:0.31536
-    [27]	validation_0-logloss:0.31343
-    [28]	validation_0-logloss:0.31283
-    [29]	validation_0-logloss:0.31196
-    [30]	validation_0-logloss:0.31117
-    [31]	validation_0-logloss:0.30736
-    [32]	validation_0-logloss:0.30340
-    [33]	validation_0-logloss:0.30103
-    [34]	validation_0-logloss:0.29956
-    [35]	validation_0-logloss:0.29835
-    [36]	validation_0-logloss:0.29735
-    [37]	validation_0-logloss:0.29474
-    [38]	validation_0-logloss:0.29437
-    [39]	validation_0-logloss:0.29390
-    [40]	validation_0-logloss:0.29306
-    [41]	validation_0-logloss:0.29185
-    [42]	validation_0-logloss:0.29153
-    [43]	validation_0-logloss:0.29114
-    [44]	validation_0-logloss:0.29076
-    [45]	validation_0-logloss:0.29029
-    [46]	validation_0-logloss:0.28860
-    [47]	validation_0-logloss:0.28838
-    [48]	validation_0-logloss:0.28802
-    [49]	validation_0-logloss:0.28775
-    [50]	validation_0-logloss:0.28747
-    [51]	validation_0-logloss:0.28715
-    [52]	validation_0-logloss:0.28681
-    [53]	validation_0-logloss:0.28675
-    [54]	validation_0-logloss:0.28639
-    [55]	validation_0-logloss:0.28631
-    [56]	validation_0-logloss:0.28597
-    [57]	validation_0-logloss:0.28588
-    [58]	validation_0-logloss:0.28495
-    [59]	validation_0-logloss:0.28481
-    [60]	validation_0-logloss:0.28468
-    [61]	validation_0-logloss:0.28462
-    [62]	validation_0-logloss:0.28444
-    [63]	validation_0-logloss:0.28434
-    [64]	validation_0-logloss:0.28417
-    [65]	validation_0-logloss:0.28368
-    [66]	validation_0-logloss:0.28336
-    [67]	validation_0-logloss:0.28318
-    [68]	validation_0-logloss:0.28305
-    [69]	validation_0-logloss:0.28190
-    [70]	validation_0-logloss:0.28186
-    [71]	validation_0-logloss:0.28186
-    [72]	validation_0-logloss:0.28182
-    [73]	validation_0-logloss:0.28146
-    [74]	validation_0-logloss:0.28133
-    [75]	validation_0-logloss:0.28049
-    [76]	validation_0-logloss:0.28032
-    [77]	validation_0-logloss:0.28028
-    [78]	validation_0-logloss:0.28027
-    [79]	validation_0-logloss:0.28024
-    [80]	validation_0-logloss:0.28031
-    [81]	validation_0-logloss:0.28021
-    [82]	validation_0-logloss:0.27980
-    [83]	validation_0-logloss:0.27981
-    [84]	validation_0-logloss:0.27966
-    [85]	validation_0-logloss:0.27962
-    [86]	validation_0-logloss:0.27961
-    [87]	validation_0-logloss:0.27955
-    [88]	validation_0-logloss:0.27906
-    [89]	validation_0-logloss:0.27900
-    [90]	validation_0-logloss:0.27900
-    [91]	validation_0-logloss:0.27894
-    [92]	validation_0-logloss:0.27880
-    [93]	validation_0-logloss:0.27877
-    [94]	validation_0-logloss:0.27852
-    [95]	validation_0-logloss:0.27856
-    [96]	validation_0-logloss:0.27854
-    [97]	validation_0-logloss:0.27838
-    [98]	validation_0-logloss:0.27821
-    [99]	validation_0-logloss:0.27776
-    
 
 
 
-
-<<<<<<< HEAD
     0.9179128844772415
 
-=======
-    XGBClassifier(base_score=0.5, booster='gbtree', colsample_bylevel=1,
-                  colsample_bynode=1, colsample_bytree=0.3, eta=0.2, gamma=0,
-                  gpu_id=-1, importance_type='gain', interaction_constraints='',
-                  learning_rate=0.200000003, max_delta_step=0, max_depth=4,
-                  min_child_weight=2, missing=nan, monotone_constraints='()',
-                  n_estimators=100, n_jobs=8, num_parallel_tree=1,
-                  objective='binary:logistic', random_state=42, reg_alpha=0,
-                  reg_lambda=1, scale_pos_weight=1, subsample=1,
-                  tree_method='exact', ubsample=0.8, use_label_encoder=True,
-                  validate_parameters=1, verbosity=0)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 ### ScikitLearn Calculation
 
 
 ```python
-<<<<<<< HEAD
 # Make predictions on test set.
 y_predict = xgb_class.predict(X_test)
 
 # Compute test set f1 score.
 f1_score(y_test, y_predict)
-=======
-# Plot validation set accuracy.
-xgb_class.score(X_val, y_val)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
 
 
 
 
-<<<<<<< HEAD
     0.9179128844772415
 
 
@@ -8195,23 +4518,10 @@ xgb_class.score(X_val, y_val)
 Conclusion: The harmonic mean is 92%, and is a weighted average between precision and recall.
 
 ## Classification Report
-=======
-    0.8745009724639164
-
-
-
-#### Interpretation:
-While the gridsearch identified different parameter values than those selected by the inital model fit, their combined effect does not enhance or detract the total accuracy.
-
-# Model Evaluation
-
-### Validation Curve
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 ```python
 # Set plot layout.
-<<<<<<< HEAD
 fig, ax = plt.subplots(figsize=(6, 3))
 
 # Classification report specificaions.
@@ -8225,34 +4535,7 @@ cm_viz.poof();
 
 # Save classification report plot.
 fig.savefig('images/ClassificationReport.png', dpi = 300)
-=======
-fig, ax = plt.subplots(figsize=(6, 4))
-
-# Validation curve specificaions.
-vc_viz = ValidationCurve(xgboost.XGBClassifier(verbosity = 0),
-                         param_name="max_depth",
-                         param_range=np.arange(1, 11),
-                         cv=10, 
-                         n_jobs=-1)
-
-# Run validation curve.
-vc_viz.fit(X_test, y_test)
-
-# Plot validation curve.
-vc_viz.poof()
-
-# Save validation curve plot.
-#fig.savefig("images/mlpr_1101.png", dpi=300)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-
-![png](output_144_1.png)
-
 
 
     
@@ -8264,25 +4547,16 @@ Conclusion:
 
 For the positive class, I have already interpreted the results.
 
-<<<<<<< HEAD
 For the negative class, the clssifier seems much less competant overall. First, of all negative predictions it made, it was right 79% of the time (Precision). Second, of all the negative cases the classifier encountered, only 64% were classified correctly (Recall).
-=======
-    <AxesSubplot:title={'center':'Validation Curve for XGBClassifier'}, xlabel='max_depth', ylabel='score'>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 If I only cared about identifying people making <=50K, this might be a good classifier. However, because I am tasked with identifying people making <=50K, this classifier is doing what I want. Later I will demonstrate how to manually change the decision threshold to affect these values.
 
 ## ROC
 An ROC illustrates how the classifier performs by tracking the true positive rate (recall/sensitivity) as the false positive rate (inverted specificity) changes. The plot should bulge to the left, indicating a good balance between true and false positives.
 
-#### Interpretation:
-
-### Learning Curve
-
 
 ```python
 # Set plot layout.
-<<<<<<< HEAD
 fig, ax = plt.subplots(figsize = (6, 6))
 
 # Setup ROC with xgboost model.
@@ -8299,30 +4573,7 @@ roc_viz.poof();
 
 # Save ROC plot.
 fig.savefig('images/ROC.png', dpi = 300)
-=======
-fig, ax = plt.subplots(figsize=(6, 4))
-
-# Learning curve specificaions.
-lc3_viz = LearningCurve(xgboost.XGBClassifier(n_estimators=100),cv=10)
-
-# Run learning curve.
-lc3_viz.fit(X_test, y_test)
-
-# Plot learning curve.
-lc3_viz.poof()
-
-# Save learning curve plot.
-#fig.savefig("images/mlpr_1102.png", dpi=300)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-
-![png](output_147_1.png)
-
 
 
     
@@ -8361,25 +4612,14 @@ fig.savefig('images/PrecisionRecallCurve.png', dpi = 300)
 ![png](output_200_0.png)
     
 
-<<<<<<< HEAD
-=======
-    <AxesSubplot:title={'center':'Learning Curve for XGBClassifier'}, xlabel='Training Instances', ylabel='Score'>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 Conclusion: This can give me some indication about how precision and recall change as a function of one another. If I wanted to improve recall, I would need to lower precision (and vis versa).
 
 ## Cumulative Gains Plot
 This plot visualising the gain in true positives (sensitivity) for a given fraction of the total population targeted by the classifier. As I sample more of the dataset, I can see how it affects the true positive rate. If, for instance, I wanted to find 80% of the population that made <=50K, I could trace the plot below from 0.8 on the y-axis to the blue line, and the corresponding x-axis would tell me the fraction of the populaton I might need to sample to find 80%.
 
-#### Interpretation:
-
-# Metrics And Classification Evaluation
-
-### Confusion Matrix
-
 
 ```python
-<<<<<<< HEAD
 # Set plot layout.
 fig, ax = plt.subplots(figsize = (6, 6))
 
@@ -8394,32 +4634,6 @@ fig.savefig('images/CumulativeGains.png', dpi = 300, bbox_inches = 'tight')
 ```
 
 
-=======
-# Predict entire test set.
-y_pred = xgb_class.predict(X_test)
-
-# Check test predictions against test labels.
-confusion_matrix(y_test, y_pred)
-
-# Define target labels for confusion matrix plot.
-mapping = {0: "less", 1: "more"}
-
-# Set plot layout.
-fig, ax = plt.subplots(figsize=(6, 6))
-
-# Encode confusion matrix.
-cm_viz = ConfusionMatrix(xgb_class,classes=["less", "more"],label_encoder=mapping)
-
-# Get all confusion matrix scores.
-cm_viz.score(X_test, y_test)
-
-# Plot confusion matrix.
-cm_viz.poof()
-```
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\yellowbrick\classifier\base.py:234: YellowbrickWarning: could not determine class_counts_ from previously fitted classifier
-      YellowbrickWarning,
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
     
 ![png](output_203_0.png)
     
@@ -8431,23 +4645,7 @@ Conclusion: If there is a cost to contacting people, this may give an idea of ho
 Lift curve shows the ratio between the proportion of true positive instances in the selection and the proportion of people sampled.
 
 
-![png](output_151_1.png)
-
-
-
-
-
-    <AxesSubplot:title={'center':'XGBClassifier Confusion Matrix'}, xlabel='Predicted Class', ylabel='True Class'>
-
-
-
-#### Interpretation:
-
-### Accuracy
-
-
 ```python
-<<<<<<< HEAD
 # Set plot layout.
 fig, ax = plt.subplots(figsize = (6, 6))
 
@@ -8465,23 +4663,6 @@ fig.savefig('images/Lift.png', dpi = 300, bbox_inches = 'tight')
     
 ![png](output_206_0.png)
     
-=======
-
-y_predict = xgb_class.predict(X_test)
-accuracy_score(y_test, y_predict)
-```
-
-
-
-
-    0.8756269833145665
-
-
-
-#### Interpretation:
-
-### Recall
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 Conclusion: The dashed line (baseline) shows how a random classifier would perform. I can see that, if I only sampled 20% of the dataset, I would already find nearly 3.5 times more people making <=50K than a random classifier would find. I see much less improvement regarding the classification of people making >50K, but also no real decrease to lift asmore peaople are sampled.
@@ -8491,7 +4672,6 @@ This plot will display the same information as the confusion matrix, but also gi
 
 
 ```python
-<<<<<<< HEAD
 # Set plot layout.
 fig, ax = plt.subplots(figsize = (10, 8))
 
@@ -8506,11 +4686,6 @@ cpe_viz.poof();
 
 # Save class prediction error plot.
 fig.savefig('images/ClassPredictionError.png', dpi = 300)
-=======
-
-y_predict = xgb_class.predict(X_test)
-recall_score(y_test, y_predict)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
 
 
@@ -8521,24 +4696,15 @@ recall_score(y_test, y_predict)
 
 Conclusion: The top right bar shows the the true positives, the bottom right shows the false negatives, the top left shows the flase positives, and the bottom left shows the true negatives. THese have already been discussed previously.
 
-<<<<<<< HEAD
 ## Discrimination Threshold
 Here I will look at the tradeoff between precision and recall, and figure out how to shift the classifier's decision boundary should I decide to improve one metric over the other. 
-=======
-    0.6270316509837468
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 If I wanted to identify every person who makes <=50K, I would enhance recall over precision, as it would decrease the false negative rate. Subsequently, however, the false positive rate would go up too (because I would be biasing the classifier towards making positive predictions).
 
 Conversely, if I only want to identify people who make <=50K if they actually make <=50K, I would instead enhance precision over recall in order to decrease the false positive rate. However, the false negative rate would also go up (because the classifier would now be biased towards making negative predictions).
 
-#### Interpretation:
-
-### Precision
-
 
 ```python
-<<<<<<< HEAD
 # Set plot layout.
 fig, ax = plt.subplots(figsize = (9, 9));
 
@@ -8553,11 +4719,6 @@ dt_viz.poof();
 
 # Save discrimination threshold plot.
 fig.savefig('images/DiscriminationThreshold.png', dpi = 300)
-=======
-
-y_predict = xgb_class.predict(X_test)
-precision_score(y_test, y_predict)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
 
 
@@ -8588,7 +4749,6 @@ cm = confusion_matrix( y_test , predictions)
 # Set plot layout.
 plt.figure(figsize = (3, 3))
 
-<<<<<<< HEAD
 # Set confusion matrix specifications.
 sns.heatmap(cm, annot = True, annot_kws = {'size': 25}, fmt = 'd', cmap = 'viridis', cbar = False)
 
@@ -8610,22 +4770,12 @@ plt.show()
 
 ## Identify Everyone Making <=50K
 If the goal is to simply maximize the identification people making <=50K, recall should be increased. 
-=======
-    0.810392482034273
-
-
-
-#### Interpretation:
-
-### F1 (Harmonic Mean)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 ```python
 # Lower decision threshold to 0.25.
 discrimination_threshold = 0.25
 
-<<<<<<< HEAD
 # Get predictions for confusion matrix.
 predictions = xgb_class.predict_proba(X_test)
 
@@ -8649,31 +4799,6 @@ sns.heatmap(cm, annot = True, annot_kws = {'size': 25}, fmt = 'd', cmap = 'virid
 
 # Plot confusion matrix.
 plt.show()
-=======
-y_predict = xgb_class.predict(X_test)
-f1_score(y_test, y_predict)
-```
-
-
-
-
-    0.7070171208102244
-
-
-
-#### Interpretation:
-
-### Classification Report
-
-
-```python
-# Set plot layout.
-fig, ax = plt.subplots(figsize=(6, 3))
-cm_viz = ClassificationReport(xgb_class, classes=["more", "less"], label_encoder=mapping)
-cm_viz.score(X_test, y_test)
-cm_viz.poof()
-#fig.savefig("images/mlpr_1203.png", dpi=300)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
 
     The precision score is: 0.83
@@ -8689,11 +4814,7 @@ cm_viz.poof()
     
 
 
-<<<<<<< HEAD
 Conclusion: The confusion matrix shows that almost everyone who makes <=50K is correctly identified. However, many more  people who make >50K are now classified as making <=50K. If the goal was to find everyone who make <=50K, this might be a better model than the one currently being  used.
-=======
-![png](output_166_0.png)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 ## Correctly Identify Everyone Making <=50K
 If I don't want incorrectly identify people making <=50K, precision should be increased.
@@ -8740,11 +4861,7 @@ plt.show()
     
 
 
-<<<<<<< HEAD
 Conclusion: Virtually every person predicted to make <=50K actually made <=50K. However, there are now many more false negatives. But, if I want to make sure every person I identify as making <=50K is actually in that class, this might be a better model.
-=======
-    <AxesSubplot:title={'center':'XGBClassifier Classification Report'}>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 # Model Exploration
 I'm not going to do much model exploration, but it's always a good idea to be aware of some tools that might help investigate model outliers, or interesting groupings.
@@ -8752,11 +4869,7 @@ I'm not going to do much model exploration, but it's always a good idea to be aw
 ## Shapley Additive Explanations (SHAP)
 A SHAP plot shows how features each contribute to pushing a model output from the base value (the average model output over the training dataset I passed) to the model output. Features pushing the prediction higher are shown in red, while those pushing the prediction lower are in blue. As an example, I will look at participant 4 (who was predicted to make <=50K).
 
-#### Interpretation:
 
-### ROC Curve
-
-<<<<<<< HEAD
 ```python
 # Explain the xgboost model's predictions using SHAP.
 explainer = shap.Explainer(xgb_class)
@@ -8766,12 +4879,6 @@ shap_values = explainer(X_test)
 
 # visualize a single prediction's prediction's explanation
 shap.plots.waterfall(shap_values[3])
-=======
-
-```python
-y_pred = xgb_class.predict(X_test)
-roc_auc_score(y_test, y_pred)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 ```
 
 
@@ -8780,11 +4887,7 @@ roc_auc_score(y_test, y_pred)
     
 
 
-<<<<<<< HEAD
 Conclusion: Factors such as the person being young, working less than 40 hours per week, and having a low status job all contribute greatly to the person being predicted to make <=50K. Interestingly, because the individual is male, this was the only contributing factor to them being pushed towards a prediction of >50K.
-=======
-    0.7904368320858715
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 ## Force Plot
 The above graph can also be more concisly displayed using a force plot, which plots the same information as above, but takes less visual space.
@@ -8793,7 +4896,6 @@ The above graph can also be more concisly displayed using a force plot, which pl
 
 
 ```python
-<<<<<<< HEAD
 # Set javascript display.
 shap.initjs()
 
@@ -8860,18 +4962,6 @@ n===t._wrapperState.initialValue&&(e.value=n)}});t.exports=l},function(t,e,n){"u
     document.getElementById('iC14AN35RKC75UEPXC0IW')
   );
 </script>
-=======
-# Set plot layout.
-fig, ax = plt.subplots(figsize=(6, 6))
-roc_viz = ROCAUC(xgb_class)
-roc_viz.fit(X_train, y_train) 
-roc_viz.score(X_test, y_test)
-roc_viz.poof()
-```
-
-
-![png](output_170_0.png)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
 
@@ -8881,214 +4971,23 @@ roc_viz.poof()
 print(xgb_class.predict_proba(X_test.iloc[[3]]))
 ```
 
-<<<<<<< HEAD
     [[6.300807e-04 9.993699e-01]]
     
-=======
-    <AxesSubplot:title={'center':'ROC Curves for XGBClassifier'}, xlabel='False Positive Rate', ylabel='True Positive Rate'>
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 This person was classified as making <=50K. Again, I can see that their age, hours worked per week, and their job, all contributed the most to them being predicted as making <=50K. Additionally, the predicted probability of them making <=50K is 99.9%.
 
 ### >50K Force Plot
 
-#### Interpretation:
 
-### Precision-Recall Curve
-
-<<<<<<< HEAD
 ```python
 # Set javascript display.
 shap.initjs()
 
 # Plot force plot.
 shap.force_plot(s.expected_value, shap_vals[7, :], feature_names = X_test.columns)
-=======
-
-```python
-# Set plot layout.
-fig, ax = plt.subplots(figsize=(6, 4))
-viz = PrecisionRecallCurve(DecisionTreeClassifier(max_depth=3))
-viz.fit(X_train, y_train)
-print(viz.score(X_test, y_test))
-viz.poof()
-#fig.savefig("images/mlpr_1205.png", dpi=300)
-```
-
-    0.5720401723862102
-    
-
-
-![png](output_173_1.png)
-
-
-
-
-
-    <AxesSubplot:title={'center':'Precision-Recall Curve for DecisionTreeClassifier'}, xlabel='Recall', ylabel='Precision'>
-
-
-
-#### Interpretation:
-
-### Cumulative Gains Plot
-
-
-```python
-# Set plot layout.
-fig, ax = plt.subplots(figsize=(6, 6))
-y_probas = xgb_class.predict_proba(X_test)
-scikitplot.metrics.plot_cumulative_gain(y_test, y_probas, ax=ax)
-#fig.savefig("images/mlpr_1206.png",dpi=300,bbox_inches="tight")
 ```
 
 
-
-
-    <AxesSubplot:title={'center':'Cumulative Gains Curve'}, xlabel='Percentage of sample', ylabel='Gain'>
-
-
-
-
-![png](output_176_1.png)
-
-
-#### Interpretation:
-
-### Lift Curve
-
-
-```python
-# Set plot layout.
-fig, ax = plt.subplots(figsize=(6, 6))
-y_probas = xgb_class.predict_proba(X_test)
-scikitplot.metrics.plot_lift_curve(y_test, y_probas, ax=ax)
-#fig.savefig("images/mlpr_1207.png",dpi=300,bbox_inches="tight")
-```
-
-
-
-
-    <AxesSubplot:title={'center':'Lift Curve'}, xlabel='Percentage of sample', ylabel='Lift'>
-
-
-
-
-![png](output_179_1.png)
-
-
-#### Interpretation:
-
-### Class Balance
-
-
-```python
-# Set plot layout.
-fig, ax = plt.subplots(figsize=(6, 6))
-cb_viz = ClassBalance(labels=["less", "more"])
-cb_viz.fit(y_test)
-cb_viz.poof()
-#fig.savefig("images/mlpr_1208.png", dpi=300)
-```
-
-
-![png](output_182_0.png)
-
-
-
-
-
-    <AxesSubplot:title={'center':'Class Balance for 9,769 Instances'}, ylabel='support'>
-
-
-
-#### Interpretation:
-
-### Class Prediction Error
-
-
-```python
-# Set plot layout.
-fig, ax = plt.subplots(figsize=(10, 8))
-cpe_viz = ClassPredictionError(xgb_class, classes=["less", "more"])
-cpe_viz.score(X_test, y_test)
-cpe_viz.poof()
-#fig.savefig("images/mlpr_1209.png", dpi=300)
-```
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\yellowbrick\classifier\base.py:234: YellowbrickWarning: could not determine class_counts_ from previously fitted classifier
-      YellowbrickWarning,
-    
-
-
-![png](output_185_1.png)
-
-
-
-
-
-    <AxesSubplot:title={'center':'Class Prediction Error for XGBClassifier'}, xlabel='actual class', ylabel='number of predicted class'>
-
-
-
-#### Interpretation:
-
-### Discrimination Threshold
-
-
-```python
-# Set plot layout.
-fig, ax = plt.subplots(figsize=(9, 9))
-dt_viz = DiscriminationThreshold(xgb_class)
-dt_viz.fit(X_test, y_test)
-dt_viz.poof()
-#fig.savefig("images/mlpr_1210.png", dpi=300)
-```
-
-    C:\Users\STPI0560\anaconda3\lib\site-packages\sklearn\utils\deprecation.py:87: FutureWarning: Function safe_indexing is deprecated; safe_indexing is deprecated in version 0.22 and will be removed in version 0.24.
-      warnings.warn(msg, category=FutureWarning)
-    C:\Users\STPI0560\anaconda3\lib\site-packages\xgboost\sklearn.py:1146: UserWarning: The use of label encoder in XGBClassifier is deprecated and will be removed in a future release. To remove this warning, do the following: 1) Pass option use_label_encoder=False when constructing XGBClassifier object; and 2) Encode your labels (y) as integers starting with 0, i.e. 0, 1, 2, ..., [num_class - 1].
-      warnings.warn(label_encoder_deprecation_msg, UserWarning)
-    
-
-
-![png](output_188_1.png)
-
-
-
-
-
-    <AxesSubplot:title={'center':'Threshold Plot for XGBClassifier'}, xlabel='discrimination threshold', ylabel='score'>
-
-
-
-Interpretation:
-
-### Tuning Decision Threshold
-Depending on the goal of the project, we may want to change the decision threshold to suite the objective better. First, we will look at the metrics again.
-
-
-```python
-predictions = xgb_class.predict(X_test)
-
-print("The precision score is: %.2f" % precision_score( y_test, predictions))
-print("The recall score is: %.2f" % recall_score( y_test, predictions), "\n")
-print("Accuracy score is: %.2f" % accuracy_score( y_test, predictions))
-print("The F1 score is: %.2f" % f1_score( y_test, predictions))
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-```
-
-    The precision score is: 0.81
-    The recall score is: 0.63 
-    
-    Accuracy score is: 0.88
-    The F1 score is: 0.71
-    
-
-#### Detect High Earners
-If the goal is to identify people making more than $50,000 per year, recall should be increased. 
-
-<<<<<<< HEAD
 <div align='center'><img src='data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABkAAAAWCAYAAAA1vze2AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAdxJREFUeNq0Vt1Rg0AQJjcpgBJiBWIFkgoMFYhPPAIVECogPuYpdJBYgXQQrMCUkA50V7+d2ZwXuXPGm9khHLu3f9+3l1nkWNvtNqfHLgpfQ1EUS3tz5nAQ0+NIsiAZSc6eDlI8M3J00B/mDuUKDk6kfOebAgW3pkdD0pFcODGW4gKKvOrAUm04MA4QDt1OEIXU9hDigfS5rC1eS5T90gltck1Xrizo257kgySZcNRzgCSxCvgiE9nckPJo2b/B2AcEkk2OwL8bD8gmOKR1GPbaCUqxEgTq0tLvgb6zfo7+DgYGkkWL2tqLDV4RSITfbHPPfJKIrWz4nJQTMPAWA7IbD6imcNaDeDfgk+4No+wZr40BL3g9eQJJCFqRQ54KiSt72lsLpE3o3MCBSxDuq4yOckU2hKXRuwBH3OyMR4g1UpyTYw6mlmBqNdUXRM1NfyF5EPI6JkcpIDBIX8jX6DR/6ckAZJ0wEAdLR8DEk6OfC1Pp8BKo6TQIwPJbvJ6toK5lmuvJoRtfK6Ym1iRYIarRo2UyYHvRN5qpakR3yoizWrouoyuXXQqI185LCw07op5ZyCRGL99h24InP0e9xdQukEKVmhzrqZuRIfwISB//cP3Wk3f8f/yR+BRgAHu00HjLcEQBAAAAAElFTkSuQmCC' /></div><script charset='utf-8'>!function(t){function e(r){if(n[r])return n[r].exports;var i=n[r]={i:r,l:!1,exports:{}};return t[r].call(i.exports,i,i.exports,e),i.l=!0,i.exports}var n={};return e.m=t,e.c=n,e.i=function(t){return t},e.d=function(t,n,r){e.o(t,n)||Object.defineProperty(t,n,{configurable:!1,enumerable:!0,get:r})},e.n=function(t){var n=t&&t.__esModule?function(){return t.default}:function(){return t};return e.d(n,"a",n),n},e.o=function(t,e){return Object.prototype.hasOwnProperty.call(t,e)},e.p="",e(e.s=410)}([function(t,e,n){"use strict";function r(t,e,n,r,o,a,u,c){if(i(e),!t){var s;if(void 0===e)s=new Error("Minified exception occurred; use the non-minified dev environment for the full error message and additional helpful warnings.");else{var l=[n,r,o,a,u,c],f=0;s=new Error(e.replace(/%s/g,function(){return l[f++]})),s.name="Invariant Violation"}throw s.framesToPop=1,s}}var i=function(t){};t.exports=r},function(t,e,n){"use strict";var r=n(8),i=r;t.exports=i},function(t,e,n){"use strict";function r(t){for(var e=arguments.length-1,n="Minified React error #"+t+"; visit http://facebook.github.io/react/docs/error-decoder.html?invariant="+t,r=0;r<e;r++)n+="&args[]="+encodeURIComponent(arguments[r+1]);n+=" for the full message or use the non-minified dev environment for full errors and additional helpful warnings.";var i=new Error(n);throw i.name="Invariant Violation",i.framesToPop=1,i}t.exports=r},function(t,e,n){"use strict";function r(t){if(null===t||void 0===t)throw new TypeError("Object.assign cannot be called with null or undefined");return Object(t)}function i(){try{if(!Object.assign)return!1;var t=new String("abc");if(t[5]="de","5"===Object.getOwnPropertyNames(t)[0])return!1;for(var e={},n=0;n<10;n++)e["_"+String.fromCharCode(n)]=n;var r=Object.getOwnPropertyNames(e).map(function(t){return e[t]});if("0123456789"!==r.join(""))return!1;var i={};return"abcdefghijklmnopqrst".split("").forEach(function(t){i[t]=t}),"abcdefghijklmnopqrst"===Object.keys(Object.assign({},i)).join("")}catch(t){return!1}}/*
 object-assign
 (c) Sindre Sorhus
@@ -9148,43 +5047,14 @@ n===t._wrapperState.initialValue&&(e.value=n)}});t.exports=l},function(t,e,n){"u
 # Plot class prediction interval for force plot observation.
 xgb_class.predict_proba(X_test.iloc[[7]])
 ```
-=======
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-
-```python
-discrimination_threshold = 0.2
-predictions = xgb_class.predict_proba(X_test)
-predictions = (predictions[::,1] > discrimination_threshold )*1
-
-print("The recall score is: %.2f" % recall_score( y_test, predictions))
-print("The precision score is: %.2f" % precision_score( y_test, predictions),"\n")
-print("Accuracy score is: %.2f" % accuracy_score( y_test, predictions))
-print("The F1 score is: %.2f" % f1_score( y_test, predictions))
-
-cm = confusion_matrix( y_test , predictions )
-plt.figure(figsize = (3,3))
-sns.heatmap(cm, annot=True, annot_kws={"size": 25}, fmt="d", cmap="viridis", cbar=False)
-plt.show()
-```
-
-    The recall score is: 0.91
-    The precision score is: 0.57 
-    
-    Accuracy score is: 0.81
-    The F1 score is: 0.70
-    
 
 
-<<<<<<< HEAD
+
+
     array([[0.9964505 , 0.00354952]], dtype=float32)
-=======
-![png](output_193_1.png)
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 
-Now, our algorithm can identify more people making above 50,000 per year, but at the cost of correctly identifying less people making below $50,000 per year. If the goal was to focus on low earners, we would want to do the opposite (incease precision by increasing the decision criteria).
 
-<<<<<<< HEAD
 This person was predicted to make >50K. I can see that their capital_diff score, education level, and hours worked per week, all contributed the most at pushing them towards a high probability of making >50K.
 
 
@@ -9219,47 +5089,12 @@ shap.plots.beeswarm(shap_values)
 
 
 Conclusion: There are some very clear and interesting (albeit obvious) patterns. For instance, almost everyone who is married is predicted to make >50K, and almost everyone who is not married is predicted to make <=50K. For capital_diff, there is no clear amount that helps predict loses, and only when people see capital gains exceeding 4 standard deviations from the mean are they guarenteed to be classified as making >50K. There is also a clear divide amongst those working more or less than 40 hours per week, with those working more making more, and those working less making less. Finally, having a bachelors degree seems to almost guarantee the person will be classified as making >50K. 
-=======
-### Model Explanation
-
-
-```python
-from lime import lime_tabular
-explainer = lime_tabular.LimeTabularExplainer(X_train.values,
-                                              feature_names=df.columns,
-                                              class_names=["less", "more"])
-
-exp = explainer.explain_instance(X_train.iloc[-1].values, df.predict_proba)
-```
-
-
-    ---------------------------------------------------------------------------
-
-    AttributeError                            Traceback (most recent call last)
-
-    <ipython-input-208-c4db8658626e> in <module>
-          4                                               class_names=["less", "more"])
-          5 
-    ----> 6 exp = explainer.explain_instance(X_train.iloc[-1].values, df.predict_proba)
-    
-
-    ~\anaconda3\lib\site-packages\pandas\core\generic.py in __getattr__(self, name)
-       5463             if self._info_axis._can_hold_identifiers_and_holds_name(name):
-       5464                 return self[name]
-    -> 5465             return object.__getattribute__(self, name)
-       5466 
-       5467     def __setattr__(self, name: str, value) -> None:
-    
-
-    AttributeError: 'DataFrame' object has no attribute 'predict_proba'
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 ## SHAP Bar Plot
 I can also just take the mean absolute value of the SHAP values for each feature to get a standard bar plot.
 
 
 ```python
-<<<<<<< HEAD
 # Summarise overall effects for most important features.
 shap.plots.bar(shap_values)
 ```
@@ -9268,37 +5103,12 @@ shap.plots.bar(shap_values)
     
 ![png](output_242_0.png)
     
-=======
-import shap
-s = shap.TreeExplainer(xgb_class)
-shap_vals = s.shap_values(X_test)
-target_idx = 3
-shap.force_plot(
-s.expected_value[target_idx],
-shap_vals[target_idx][20, :],feature_names=X_test.columns)
-```
 
 
-    ---------------------------------------------------------------------------
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
-
-    IndexError                                Traceback (most recent call last)
-
-<<<<<<< HEAD
 Conclusion: Here I can see the most important features determining what class someone will be predicted to be in. If I wanted to send out some surveys that targeted people making <=50K, I might want to focus more strongly on those who are younger, unmarried, high school dropouts, and are female. If information like education was more easy to obtain, I could instead find people who did not graduate high school, or those who did but did not attend university.
 
 ## SHAP Dot Plot
 To understand how a single feature affects the output of the model I can plot the SHAP value of that feature vs. the value of the feature for all the examples in a dataset. Vertical dispersion at a single value of a predictor could represent interaction effects with other features. To help reveal these interactions I can color by another feature. If I pass the whole explanation tensor to the color argument the scatter plot will pick the best feature to color by. I will pick a few of the more interesting ones I have found below.
-=======
-    <ipython-input-213-d7fc7980ffcb> in <module>
-          4 target_idx = 3
-          5 shap.force_plot(
-    ----> 6 s.expected_value[target_idx],
-          7 shap_vals[target_idx][20, :],feature_names=X_test.columns)
-    
-
-    IndexError: invalid index to scalar variable.
->>>>>>> 03f657e5c734e798b0ace2aadeab9439913b986e
 
 ### SHAP Dot Plot: gender_Male
 
@@ -9316,6 +5126,8 @@ shap.plots.scatter(shap_values[:, 'gender_Male'], color = shap_values)
 
 Here, it is clear that males are more likely to make >50K than females. however, if either sex has a child, a very strong interaction is observed. Females are more likely to make >50K if they have a child, but males are more likely to make <=50K if they have a child. Thus, having a child affects earnings very differently for either sex. One possibility is child support payments being more likely to be made if you are male, and more likely to be recieved if you are female. If I wanted to target people by sex, it might be useful to contact females without children, or males with children.
 
+### SHAP Dot Plot: gender_Male
+
 
 ```python
 #Plot 2 predictors against each other.
@@ -9324,7 +5136,7 @@ shap.plots.scatter(shap_values[:, 'hours_per_week'], color = shap_values)
 
 
     
-![png](output_248_0.png)
+![png](output_249_0.png)
     
 
 
