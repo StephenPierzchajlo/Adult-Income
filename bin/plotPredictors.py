@@ -7,9 +7,22 @@ def plotPredictors(data, predictor, width, height):
     height: Height of plot.
     '''
     # Set plot size.
-    plt.figure(figsize=(width,height))
+    plt.figure(figsize = (width, height))
+    
+    # Set title.
     plt.title(predictor)
-    ax = sns.countplot(x=predictor, data=data)
-    for p in ax.patches:
-        height = p.get_height()
-        return plt.show()
+    
+    # Define graph.
+    ax = sns.countplot(x = predictor, data = data, hue = "income")
+    
+    # If predictor is occupation, tilt x-axis labels (so they fit)...
+    if predictor == "occupation" or "native_country":
+        plt.xticks(rotation=30)
+        for p in ax.patches:
+            height = p.get_height()
+            return plt.show()
+    # ... otherwise, don't tilt x-axis labels.
+    else:
+        for p in ax.patches:
+            height = p.get_height()
+            return plt.show()
